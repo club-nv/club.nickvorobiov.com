@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 gulp.task('connectBuild', function() {
   connect.server({
     root: '_site',
-    port: 8000,
+    port: 80,
     livereload: true
   });
 });
