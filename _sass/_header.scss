@@ -1,0 +1,31 @@
+/* HEADER
+---------------------------------------- */
+.header {
+  padding: 4.286em 0 0;
+  //width: 100%;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+
+  &__logo {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.714em 0;
+    transition: all .2s;
+  }
+}
+
+.logo {
+  display: inline-block;
+  width: 46px;
+  height: 30px;
+  background: url(../images/logo.png) no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  text-indent: -9999px;
+
+  opacity: .8;
+}

@@ -1,0 +1,46 @@
+// _fonts.scss
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/muller_light.eot');
+  src: url('../fonts/muller_light.eot') format('embedded-opentype'),
+       url('../fonts/muller_light.woff2') format('woff2'),
+       url('../fonts/muller_light.woff') format('woff'),
+       url('../fonts/muller_light.ttf') format('truetype'),
+       url('../fonts/muller_light.svg#muller_light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/muller_regular.eot');
+  src: url('../fonts/muller_regular.eot') format('embedded-opentype'),
+       url('../fonts/muller_regular.woff2') format('woff2'),
+       url('../fonts/muller_regular.woff') format('woff'),
+       url('../fonts/muller_regular.ttf') format('truetype'),
+       url('../fonts/muller_regular.svg#muller_regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/muller_bold.eot');
+  src: url('../fonts/muller_bold.eot') format('embedded-opentype'),
+       url('../fonts/muller_bold.woff2') format('woff2'),
+       url('../fonts/muller_bold.woff') format('woff'),
+       url('../fonts/muller_bold.ttf') format('truetype'),
+       url('../fonts/muller_bold.svg#muller_bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/muller_extrabold.eot');
+  src: url('../fonts/muller_extrabold.eot') format('embedded-opentype'),
+       url('../fonts/muller_extrabold.woff2') format('woff2'),
+       url('../fonts/muller_extrabold.woff') format('woff'),
+       url('../fonts/muller_extrabold.ttf') format('truetype'),
+       url('../fonts/muller_extrabold.svg#muller_extrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}

@@ -1,0 +1,30 @@
+// _notice.scss
+
+.notice {
+  line-height: 1.4;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 25px 0;
+  z-index: 9999;
+
+  a {
+    color: white;
+  }
+
+  &--warning {
+    background: $color-error;
+    color: white;
+  }
+  &--success {
+    background-color: $color-success;
+    color: white;
+  }
+  &--top {
+  	top: 0;
+    bottom: auto;
+  }
+}
+.modal .notice {opacity: 0;}

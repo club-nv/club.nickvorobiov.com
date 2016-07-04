@@ -1,0 +1,20 @@
+.s-quote {
+  padding-top: 0 !important;
+}
+
+.quote {
+  border: 2px solid $color-primary;
+  padding: 8.125em;
+
+  &__text {
+    font-size: 1.714em;
+    line-height: 1.6;
+    font-weight: 700;
+    margin: 0 0 0.333em 0;
+  }
+  &__sign {
+    color: #666;
+    font-size: 1.286em;
+    font-style: italic;
+  }
+}

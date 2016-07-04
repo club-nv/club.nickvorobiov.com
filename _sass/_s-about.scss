@@ -1,0 +1,41 @@
+.s-about {
+  background: $color-back;
+  h2 {
+    margin: 0.750em 0;
+  }
+  .introtext {
+    margin-bottom: 3.125em;
+  }
+  .sticky-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1
+  }
+  &__sticker {
+    background: #efefef url(../images/b_main.jpg) bottom right no-repeat;
+    background-size: 50%;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  &__link {
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+    line-height: .9;
+    text-decoration: none;
+    border-bottom: 1px dashed lighten($color-font,30%);
+
+    margin-top: 1.429em;
+    &:hover {
+      border-color: transparent;
+    }
+  }
+}

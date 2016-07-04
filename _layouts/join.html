@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<div class="root-layout">
+  {% include header.html %}
+  <main class="main" role="main">
+    <section class="section s-join">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-9 col-xs-offset-2">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  {% include footer.html %}
+</div>

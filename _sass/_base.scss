@@ -1,0 +1,153 @@
+// base.scss
+
+@import 'lib/mixins';
+
+@import 'lib/reset';
+//@import 'lib/normalize';
+
+@import 'variables';
+
+@import 'lib/fonts';
+@import 'lib/grid';
+//@import 'lib/carousel';
+//@import 'lib/media';
+@import 'lib/modal';
+//@import 'lib/photoswipe';
+@import 'lib/animation';
+@import 'lib/typography';
+@import 'lib/notice';
+
+@import 'lib/base';
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9999;
+}
+
+.container {
+  padding: 0 1.071rem;
+  min-height: 100%;
+  width: 83.750rem;
+  margin: 0 auto;
+}
+
+.none,.hidden{display:none;}
+.is-locked {overflow: hidden;}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  background: #ededed;
+  height: 0;
+  transition: height .3s ease-out;
+  z-index: 200;
+  overflow: hidden;
+  &.is-active {
+  }
+}
+
+.text-center {text-align: center;}
+
+.root-layout {
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+/* MAIN
+---------------------------------------- */
+
+.main {
+  min-height: 500px;
+  max-height: 1000000px;
+}
+.section {
+  padding: 7.143em 0;
+  &:first-child {
+    & .title {
+      margin-top: 0;
+    }
+  }
+}
+.title {
+  padding-bottom: 1.429rem;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background: $color-primary;
+    height: 2px;
+    width: 16.667%;
+  }
+
+  &--center {
+    text-align: center;
+    &::after {
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  em {
+    font-size: 1.800em;
+    font-style: normal;
+    line-height: 1;
+    display: block;
+    &.quote {
+      margin-left: -0.611em;
+    }
+  }
+}
+.introtext {
+  font-size: 1.286em;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.social {
+  &-list {
+    font-size: 0;
+    margin: 0 -8px;
+    &__item {
+      display: inline-block;
+      margin: 0 8px;
+    }
+  }
+  &-link {
+      position: relative;
+      display: inherit;
+      width: 16px;
+      height: 16px;
+      line-height: 16px;
+      font-size: 1rem;
+      text-align: center;
+      text-indent: -9999px;
+      background: url(../images/sprite.png) no-repeat;
+      opacity: .7;
+      &:hover {
+        opacity: 1;
+      }
+
+    &--vk {
+    }
+    &--fb {
+      background-position: -16px 0 !important;
+    }
+    &--in {
+      background-position: -32px 0 !important;
+    }
+    &--yt {
+      background-position: -48px 0 !important;
+    }
+  }
+}

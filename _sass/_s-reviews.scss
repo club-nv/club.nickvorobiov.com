@@ -1,0 +1,46 @@
+.s-reviews {
+  padding-bottom: 0 !important;
+  .reviews {
+    margin-bottom: 4.286em;
+    &__item {
+      padding: 1.429em 0;
+      &-info {
+        font-style: italic;
+        padding: 1.429em 0;
+        text-align: center;
+      }
+      &-img {
+        border-radius: 50%;
+        min-width: 100%;
+      }
+      &-desc {
+        padding: 1.429em 0;
+      }
+      &-name {
+
+      }
+      &-social {
+        color: #999;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      &-body {
+        padding: 0 0 0 2.143em;
+      }
+      &-link {
+        display: inline-block;
+        color: #999;
+        line-height: .9;
+        text-decoration: none;
+        border-bottom: 1px dashed #cfcfcf;
+        cursor: pointer;
+        &:hover {
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

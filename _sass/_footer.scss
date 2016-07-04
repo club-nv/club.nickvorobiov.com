@@ -1,0 +1,36 @@
+/* FOOTER
+---------------------------------------- */
+.footer {
+  //background-color: $color-back;
+  font-family: $font;
+  font-size: 0.714em;
+  padding: 4.000em 0;
+  color: $color-footer;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 10;
+  &__social {
+    margin-bottom: 15px;
+  }
+  &__dev {
+    margin-top: 5px;
+    & a {
+      color: $color-footer;
+    }
+    &:hover {
+      color: $color-footer;
+      & a {
+        color: $color-footer;
+      }
+    }
+  }
+  &__privacy {
+    &-link {
+      text-decoration: underline;
+      cursor: pointer;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

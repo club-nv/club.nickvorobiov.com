@@ -1,0 +1,37 @@
+.s-format {
+  padding-top: 0 !important;
+  text-align: center;
+
+  &__message {
+    font-family:
+      tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 11px;
+    line-height: 1.5em;
+
+    box-shadow: 1px 1px 3px #888888;
+    padding: 10px;
+
+    &-text {
+      margin-left: 50px;
+      text-align: left;
+
+      &::before {
+        content: "Настюша";
+        color: #2B587A;
+        display: block;
+        font-weight: bold;
+      }
+    }
+
+    &::before {
+      content: "";
+      background-image: url(/images/hero/nastusha.jpg);
+      background-size: cover;
+      width: 36px;
+      height: 36px;
+      border-radius: 2px;
+      display: block;
+      float: left;
+    }
+  }
+}
