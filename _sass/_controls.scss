@@ -41,6 +41,12 @@
     background: #507299;
     color: white;
 
+    img {
+      vertical-align: middle;
+      margin-top: -6px;
+      margin-left: 6px;
+    }
+
     &:hover {
       background: lighten(#507299, 2%);
     }
