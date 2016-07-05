@@ -37,6 +37,17 @@
     background: darken(#f2f2f2, 2%);
   }
 
+  &-vk {
+    background: #507299;
+    color: white;
+
+    &:hover {
+      background: lighten(#507299, 2%);
+    }
+    &:active {
+      background: darken(#507299, 2%);
+    }
+  }
 
   &-primary,
   &-primary:hover,
