@@ -207,7 +207,7 @@ layout: base
                 Живое участие
               </p>
 
-              <p>Чтобы стать членом клуба бесплатно, вступай в&nbsp;закрытую группу &laquo;Вконтакте&raquo;</p>
+              <p>Чтобы стать членом клуба бесплатно, посмотри вводное занятие и&nbsp;заполни анкету</p>
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@ layout: base
           </div>
           <div class="s-price__item">
             <div class="s-price__item-button">
-              <a class="btn btn-vk" href="/join-free/">Вступить бесплатно</a>
+              <button class="btn btn-vk" data-modal-target="modal">Вступить бесплатно</button>
             </div>
           </div>
         </div>
@@ -315,6 +315,32 @@ layout: base
 </div>
 
 {% include footer.html %}
+
+<!--noindex-->
+<div class="modal modal--full" data-modal-id="modal">
+  <div class="modal-close" data-modal-action="close">Закрыть</div>
+    <div class="form">
+      <h3 class="title">Вступить в клуб</h3>
+      
+      <form method="post" action="http://love.prorealnost.com/order.php">
+        <ul class="form__wrap row">
+          <li class="form__item col-xs-6">
+            <label class="label" for="input_vk">Ссылка на твою страницу ВКонтакте</label>
+            <input type="text" name="vk" class="input input--outline" placeholder="https://vk.com/id***">
+          </li>
+          <li class="form__item col-xs-4">
+            <button class="btn btn-primary">
+              Вступить
+            </button>
+          </li>
+        </ul>
+        <input type="hidden" name="trello-list-id" value="56c58a45cef0c302e3ed379a" />
+        <input type="hidden" name="redirect" value="http://club.nickvorobiov.com/ok-free/" />
+      </form>
+    </div>
+  </div>
+</div>
+<!--/noindex-->
 
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?122"></script>
 <script type="text/javascript">

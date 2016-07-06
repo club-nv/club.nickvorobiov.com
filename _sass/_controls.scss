@@ -129,6 +129,10 @@
     vertical-align: top;
     padding: 0 1.071rem;
   }
+  .label {
+    float: left;
+    margin-top: -30px;
+  }
   .input {
     color: $color-font;
     font: 700 0.857rem/4.500em $font;

@@ -1,0 +1,18 @@
+---
+layout: bone
+---
+
+{% comment %} Прокладка для гугл-аналитики и яндекс-метрики {% endcomment %}
+
+<div class="center-on-screen">Сейчас откроется вводное занятие...</div>
+
+<!--noindex-->
+
+{% include analytics.html %}
+{% include metrika.html %}
+
+<!--/noindex-->
+
+<script type="text/javascript">
+  window.location.replace("{{ page.redirect }}");
+</script>
