@@ -98,6 +98,11 @@
   flex-wrap: $inner;
 }
 
+@mixin justify-content($justify) {
+  -webkit-justify-content: $justify;
+  justify-content: $justify;
+}
+
 /* MEDIA
 ----------------------------------------------------------------------*/
 

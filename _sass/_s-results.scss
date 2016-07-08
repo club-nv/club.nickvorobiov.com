@@ -2,7 +2,7 @@
   padding-top: 0 !important;
 
   &__row {
-    display: flex;
+    @include flexbox;
   }
 
   &__item {

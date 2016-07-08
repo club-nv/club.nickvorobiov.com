@@ -64,9 +64,19 @@
 
 .center-on-screen {
   height: 100vh;
-  display: flex;
+  @include flexbox;
   align-items: center;
   justify-content: center;
+}
+
+.flexthis {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /* MAIN
