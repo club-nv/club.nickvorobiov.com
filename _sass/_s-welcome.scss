@@ -1,0 +1,24 @@
+.s-welcome {
+  .title {
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    margin-bottom: 80px;
+  }
+
+  h4:first-child {
+    margin-top: 0;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    margin-top: 1em;
+  }
+
+  h5 {
+    margin: 25px 0 10px;
+  }
+}
