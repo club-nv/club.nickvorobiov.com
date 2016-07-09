@@ -18,15 +18,13 @@ vk_app_id: 5534188
 #vk_app_id: 4569992 # 127.0.0.1
 
 collections:
-  pages-live:
+  live:
     output: true
     permalink: /live/:path/
 
 defaults:
   - scope:
       path: ""
-      type: pages-live
+      type: live
     values:
       layout: live
-
-# Компилируйся!
