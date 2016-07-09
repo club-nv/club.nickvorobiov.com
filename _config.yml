@@ -16,3 +16,15 @@ keywords: "Клуб личностного роста"
 author: "Николай Воробьёв"
 vk_app_id: 5534188
 #vk_app_id: 4569992 # 127.0.0.1
+
+collections:
+  pages-live:
+    output: true
+    permalink: /live/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages-live
+    values:
+      layout: live

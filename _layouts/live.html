@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<style type="text/css">
+body, html {
+  min-width: 0 !important;
+}
+</style>
+
+<section class="section s-live">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="introtext s-live__subtitle">Клуб личностного роста Николая Воробьёва</p>
+    <p class="s-live__button"><a class="btn btn-primary" target="_blank" href="http://club.nickvorobiov.com/">Вступить в клуб</a></p>
+    <iframe style='border: 1px solid #666666' width="700" height="400" src="http://www.youtube.com/embed/{{ page.stream }}" frameborder="0" allowfullscreen></iframe>
+    <div id="vk_comments"></div>
+  </div>
+</section>
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+<script type="text/javascript">
+VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
+VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, '{{ page.stream }}');
+</script>

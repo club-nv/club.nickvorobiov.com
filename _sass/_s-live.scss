@@ -1,0 +1,25 @@
+.s-live {
+  padding: 4em 0;
+
+  .container {
+    width: 700px;
+    margin: 0 auto;    
+  }
+
+  h1 {
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-size: 1.286em;
+    font-weight: 300;
+    line-height: 1.6;
+
+    margin-bottom: 1em;
+  }
+
+  &__button {
+    margin-bottom: 2em;
+  }
+}
