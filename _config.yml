@@ -8,7 +8,6 @@ exclude:
   - gulpfile.js
 yandex_metrika: 38294550
 google_analytics: UA-46456269-14
-permalink: /:title/
 
 title: "Клуб личностного роста Николая Воробьева"
 description: "Клуб — это инструмент, который помогает добиваться больших результатов с помощью развития личных качеств"
@@ -18,13 +17,15 @@ vk_app_id: 5534188
 #vk_app_id: 4569992 # 127.0.0.1
 
 collections:
-  live:
+  pages-live:
     output: true
-    permalink: /live/:path/
+    permalink: /:path/
 
 defaults:
   - scope:
       path: ""
-      type: live
+      type: pages-live
     values:
       layout: live
+
+permalink: /:title/
