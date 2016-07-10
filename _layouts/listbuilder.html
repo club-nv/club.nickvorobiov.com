@@ -1,0 +1,88 @@
+---
+layout: base
+---
+
+<div class="root-layout">
+  {% include header.html %}
+  <main class="main" role="main">
+    <section class="section s-main">
+      <div class="container">
+        <div class="s-main__inner">
+          <h1 class="s-main__title">
+            Онлайн мастер-класс
+            <br/>
+            «{{ page.title }}»
+          </h1>
+          <p class="s-main__introtext">
+            {{ page.introtext }}
+          </p>
+          <div class="row">
+            <div class="col-xs-9">
+              <div class="form">
+                <form method="post" action="http://love.prorealnost.com/order.php">
+                  <ul class="form__wrap row">
+                      <li class="form__item col-xs-4">
+                        <input type="text" class="input" name="name" placeholder="ivan@ivanov.com">
+                      </li>
+                      <li class="form__item col-xs-4">
+                        <button class="btn btn-primary" data-analytics="anchor-button">
+                          Получить доступ
+                        </button>
+                      </li>
+                  </ul>
+                  <input type="hidden" name="trello-list-id" value="569f823006dc53595355c866" />
+                  <input type="hidden" name="redirect" value="http://pobeditel.soedinennost.com/ok/" />
+                  <input type="hidden" name="form" value="anchor" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="s-main__sign">Спикер — Николай Воробьёв</span>
+      </div>
+    </section>
+
+    <section class="section s-step">
+      <div class="container">
+        <h2 class="title">Программа</h2>
+        <div class="row step">
+          {% for topic in page.program %}
+            <div class="col-xs-4 step__item">
+              <h5>{{ topic }}</h5>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    {% include about.html %}
+
+    <section class="section s-anchor" data-analytics-page="anchor">
+      <div class="container">
+        <h3 class="title">Введи свой емейл и получи доступ к мастер-классу</h3>
+        <div class="row">
+          <div class="col-xs-9">
+            <div class="form">
+              <form method="post" action="http://love.prorealnost.com/order.php">
+                <ul class="form__wrap row">
+                    <li class="form__item col-xs-4">
+                      <input type="text" class="input" name="name" placeholder="ivan@ivanov.com">
+                    </li>
+                    <li class="form__item col-xs-4">
+                      <button class="btn btn-primary" data-analytics="anchor-button">
+                        Получить доступ
+                      </button>
+                    </li>
+                </ul>
+                <input type="hidden" name="trello-list-id" value="569f823006dc53595355c866" />
+                <input type="hidden" name="redirect" value="http://pobeditel.soedinennost.com/ok/" />
+                <input type="hidden" name="form" value="anchor" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  {% include footer.html %}
+</div>

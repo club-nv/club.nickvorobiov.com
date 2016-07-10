@@ -19,7 +19,10 @@ vk_app_id: 5534188
 collections:
   pages-live:
     output: true
-    permalink: /:path/
+    permalink: /live/:path/
+  pages-listbuilder:
+    output: true
+    permalink: /listbuilder/:path/
 
 defaults:
   - scope:
@@ -27,5 +30,10 @@ defaults:
       type: pages-live
     values:
       layout: live
+  - scope:
+      path: ""
+      type: pages-listbuilder
+    values:
+      layout: listbuilder
 
 permalink: /:title/
