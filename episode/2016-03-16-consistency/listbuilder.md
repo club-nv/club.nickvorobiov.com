@@ -13,5 +13,5 @@ program:
   - Использовать свои сильные стороны
   - Активные побеждают
 
-name: consistency-2
+name: consistency
 ---

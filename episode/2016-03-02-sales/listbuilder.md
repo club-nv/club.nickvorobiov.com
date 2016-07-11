@@ -7,5 +7,5 @@ program:
   - Ответы на вопросы
   - Домашнее задание
 
-name: salesman ## название страницы /enjoy
+name: sales
 ---
