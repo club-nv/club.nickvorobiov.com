@@ -7,5 +7,7 @@ program:
   - Ответы на вопросы
   - Домашнее задание
 
-name: seduct
+permalink: /listbuilder/seduction/
+redirect: /listbuilder-ok/seduction/
+layout: listbuilder
 ---

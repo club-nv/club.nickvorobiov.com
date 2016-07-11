@@ -21,5 +21,7 @@ program:
   - Домашнее задание
   - Ответы на вопросы
 
-name: networking
+permalink: /listbuilder/networking/
+redirect: /listbuilder-ok/networking/
+layout: listbuilder
 ---

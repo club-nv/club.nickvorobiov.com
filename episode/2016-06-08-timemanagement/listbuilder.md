@@ -9,5 +9,7 @@ program:
   - Техника «Режим»
   - Техника «Финализация»
 
-name: timemanagement
+permalink: /listbuilder/timemanagement/
+redirect: /listbuilder-ok/timemanagement/
+layout: listbuilder
 ---

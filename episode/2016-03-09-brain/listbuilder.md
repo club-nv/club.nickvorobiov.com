@@ -9,6 +9,8 @@ program:
   - Как разбудить мозг и заставить его быстро работать утром сразу после пробуждения
   - Как быстро читать и усваивать информацию
 
-name: brain
 ---
 
+permalink: /listbuilder/brain/
+redirect: /listbuilder-ok/brain/
+layout: listbuilder

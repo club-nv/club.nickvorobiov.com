@@ -10,5 +10,7 @@ program:
   - Динамическая медитация
   - Для зануд — BSF
 
-name: emo
+permalink: /listbuilder/emo/
+redirect: /listbuilder-ok/emo/
+layout: listbuilder
 ---

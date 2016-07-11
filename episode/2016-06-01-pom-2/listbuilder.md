@@ -7,5 +7,7 @@ program:
   - Ответы на вопросы
   - Домашнее задание
 
-name: optimism-2 ## название страницы /enjoy
+permalink: /listbuilder/pom-2/
+redirect: /listbuilder-ok/pom-2/
+layout: listbuilder
 ---

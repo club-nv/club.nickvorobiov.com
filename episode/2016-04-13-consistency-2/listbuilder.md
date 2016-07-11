@@ -23,5 +23,7 @@ gains:
   - Неуклонно двигаться в сторону цели вместо разового «рывка»
   - Экономить силы и двигаться легко
 
-name: consistency-2
+permalink: /listbuilder/consistency-2/
+redirect: /listbuilder-ok/consistency-2/
+layout: listbuilder
 ---

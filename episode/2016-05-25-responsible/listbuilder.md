@@ -9,5 +9,7 @@ program:
   - Что делать есть не успеваю
   - Что делать есть передумал
 
-name: responsible
+permalink: /listbuilder/responsible/
+redirect: /listbuilder-ok/responsible/
+layout: listbuilder
 ---

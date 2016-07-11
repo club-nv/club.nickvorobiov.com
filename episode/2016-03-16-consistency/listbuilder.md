@@ -13,5 +13,7 @@ program:
   - Использовать свои сильные стороны
   - Активные побеждают
 
-name: consistency
+permalink: /listbuilder/consistency/
+redirect: /listbuilder-ok/consistency/
+layout: listbuilder
 ---

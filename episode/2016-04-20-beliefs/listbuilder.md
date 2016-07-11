@@ -20,5 +20,7 @@ program:
   - Как изменять
   - Домашнее задание
 
-name: beliefs
+permalink: /listbuilder/beliefs/
+redirect: /listbuilder-ok/beliefs/
+layout: listbuilder
 ---

@@ -13,5 +13,7 @@ program:
   - Акт принятия
   - Ответы на вопросы
 
-name: acceptance
+permalink: /listbuilder/acceptance/
+redirect: /listbuilder-ok/acceptance/
+layout: listbuilder
 ---

@@ -16,5 +16,7 @@ gains:
   - Улучшить сон и самочувствие
   - Уменьшить стресс
 
-name: sleep
+permalink: /listbuilder/sleep/
+redirect: /listbuilder-ok/sleep/
+layout: listbuilder
 ---

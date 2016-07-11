@@ -10,6 +10,8 @@ program:
   - Как создать мощное видение
   - Как не надо создавать видение
 
-name: enrol
 ---
 
+permalink: /listbuilder/enrol/
+redirect: /listbuilder-ok/enrol/
+layout: listbuilder

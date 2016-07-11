@@ -15,5 +15,7 @@ gains:
   - Повысить самооценку
   - Стать уверенным
 
-name: selfesteem
+permalink: /listbuilder/selfesteem/
+redirect: /listbuilder-ok/selfesteem/
+layout: listbuilder
 ---

@@ -1,0 +1,62 @@
+.s-listbuilder-main {
+  background: #efefef url(../images/b_main.jpg) bottom right no-repeat;
+  background-size: 60%;
+  min-height: 700px;
+  @include bp-xlarge {
+    min-height: 750px;
+  }
+  &__inner {
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(center);
+    min-height: 640px;
+  }
+  &__title {
+    line-height: 1.2;
+    margin: 0 0 1.190em;
+    max-width: 62%;
+
+    em {
+      font-size: 1.714em;
+      font-style: normal;
+      display: block;
+      line-height: 0.83;
+      small {
+        font-size: 0.6em;
+
+      }
+    }
+  }
+  &__left-quote {
+    margin-left: -0.59em;
+  }
+
+  &__introtext {
+    font-size: 1.714em;
+    font-weight: 300;
+    line-height: 1.2;
+    max-width: 50%;
+  }
+  &__sign {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    right: 70px;
+    bottom: 45px;
+  }
+}
+
+// DEVICE
+
+.desktop {
+  &.landscape {
+    .s- {
+      &listbuilder-main {
+        height: 100vh;
+        &__inner {
+          height: 100vh;
+        }
+      }
+    }
+  }
+}

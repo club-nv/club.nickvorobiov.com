@@ -5,17 +5,19 @@ layout: base
 <div class="root-layout">
   {% include header.html %}
   <main class="main" role="main">
-    <section class="section s-main">
+    <section class="section s-listbuilder-main">
       <div class="container">
-        <div class="s-main__inner">
-          <h1 class="s-main__title">
+        <div class="s-listbuilder-main__inner">
+          <h1 class="s-listbuilder-main__title">
             Бесплатный онлайн мастер-класс
             <br/>
-            <em><small>«</small>{{ page.title }}<small>»</small></em>
+            <em><small class="s-listbuilder-main__left-quote">«</small>{{ page.title }}<small>»</small></em>
           </h1>
-          <p class="s-main__introtext">
-            {{ page.introtext }}
-          </p>
+          {% if page.introtext %}
+            <p class="s-listbuilder-main__introtext">
+              {{ page.introtext }}
+            </p>
+          {% endif %}
           <div class="row">
             <div class="col-xs-9">
               <div class="form">
@@ -25,20 +27,21 @@ layout: base
                         <input type="text" class="input" name="name" placeholder="ivan@ivanov.com">
                       </li>
                       <li class="form__item col-xs-4">
-                        <button class="btn btn-primary" data-analytics="anchor-button">
+                        <button class="btn btn-primary">
                           Получить доступ
                         </button>
                       </li>
                   </ul>
-                  <input type="hidden" name="trello-list-id" value="569f823006dc53595355c866" />
-                  <input type="hidden" name="redirect" value="http://pobeditel.soedinennost.com/ok/" />
-                  <input type="hidden" name="form" value="anchor" />
+                  <input type="hidden" name="trello-list-id" value="578362e2fc28fa1a77ae9318" />
+                  <input type="hidden" name="mailchimp-product-interest-id" value="eb6470d55a" />
+                  <input type="hidden" name="redirect" value="{{ site.url }}{{ page.redirect }}" />
+                  <input type="hidden" name="form" value="header" />
                 </form>
               </div>
             </div>
           </div>
         </div>
-        <span class="s-main__sign">Спикер — Николай Воробьёв</span>
+        <span class="s-listbuilder-main__sign">Спикер — Николай Воробьёв</span>
       </div>
     </section>
 
@@ -71,7 +74,7 @@ layout: base
 
     {% include about.html %}
 
-    <section class="section s-anchor" data-analytics-page="anchor">
+    <section class="section s-anchor">
       <div class="container">
         <h3 class="title">Введи свой емейл и получи доступ к мастер-классу</h3>
         <div class="row">
@@ -83,13 +86,14 @@ layout: base
                       <input type="text" class="input" name="name" placeholder="ivan@ivanov.com">
                     </li>
                     <li class="form__item col-xs-4">
-                      <button class="btn btn-primary" data-analytics="anchor-button">
+                      <button class="btn btn-primary">
                         Получить доступ
                       </button>
                     </li>
                 </ul>
-                <input type="hidden" name="trello-list-id" value="569f823006dc53595355c866" />
-                <input type="hidden" name="redirect" value="http://pobeditel.soedinennost.com/ok/" />
+                <input type="hidden" name="trello-list-id" value="578362e2fc28fa1a77ae9318" />
+                <input type="hidden" name="mailchimp-product-interest-id" value="eb6470d55a" />
+                <input type="hidden" name="redirect" value="{{ site.url }}{{ page.redirect }}" />
                 <input type="hidden" name="form" value="anchor" />
               </form>
             </div>

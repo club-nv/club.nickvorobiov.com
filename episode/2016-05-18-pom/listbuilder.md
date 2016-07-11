@@ -9,5 +9,7 @@ program:
   - Негативные эмоции не равно негативный mindset (образ мышления)
   - Как оставаться продуктивным когда «накрыло»
 
-name: pom
+permalink: /listbuilder/pom/
+redirect: /listbuilder-ok/pom/
+layout: listbuilder
 ---

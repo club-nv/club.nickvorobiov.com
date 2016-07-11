@@ -9,5 +9,7 @@ program:
   - Как избавиться от лени?
   - Как мотивировать себя и постоянно подпитывать стремления к цели?
 
-name: energy
+permalink: /listbuilder/energy/
+redirect: /listbuilder-ok/energy/
+layout: listbuilder
 ---

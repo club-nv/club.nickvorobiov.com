@@ -7,5 +7,7 @@ program:
   - Как стать уверенным
   - Двенадцать рекомендаций по повышению уверенности
 
-name: uverennost
+permalink: /listbuilder/uverennost/
+redirect: /listbuilder-ok/uverennost/
+layout: listbuilder
 ---

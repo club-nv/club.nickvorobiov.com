@@ -7,5 +7,7 @@ program:
   - Предназначение
   - Любимое дело
 
-name: spld
+permalink: /listbuilder/spld/
+redirect: /listbuilder-ok/spld/
+layout: listbuilder
 ---

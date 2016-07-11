@@ -16,5 +16,7 @@ program:
   - Техника «Активное слушание»
   - Техника «Однако»
 
-name: discuss
+permalink: /listbuilder/discuss/
+redirect: /listbuilder-ok/discuss/
+layout: listbuilder
 ---

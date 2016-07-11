@@ -13,5 +13,7 @@ program:
   - Язык выгод
   - Как убеждать и переубеждать
 
-name: oratory-2
+permalink: /listbuilder/oratory-2/
+redirect: /listbuilder-ok/oratory-2/
+layout: listbuilder
 ---

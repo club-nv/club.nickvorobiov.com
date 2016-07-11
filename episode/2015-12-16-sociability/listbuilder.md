@@ -11,5 +11,7 @@ program:
   - Первый шаг по развитию смелости и коммуникабельности
   - Где взять остальные шаги
 
-name: sociability
+permalink: /listbuilder/sociability/
+redirect: /listbuilder-ok/sociability/
+layout: listbuilder
 ---

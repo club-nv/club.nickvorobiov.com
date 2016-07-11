@@ -9,5 +9,7 @@ program:
   - Как открыть винный бар
   - Как найти мужика
 
-name: resource-planning ## название страницы /enjoy
+permalink: /listbuilder/resource-planning/
+redirect: /listbuilder-ok/resource-planning/
+layout: listbuilder
 ---

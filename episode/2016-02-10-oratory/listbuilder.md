@@ -13,5 +13,7 @@ program:
   - Подготовка
   - Как быстро подготовить речь
 
-name: oratory
+permalink: /listbuilder/oratory/
+redirect: /listbuilder-ok/oratory/
+layout: listbuilder
 ---

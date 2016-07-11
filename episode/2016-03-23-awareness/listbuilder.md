@@ -12,5 +12,7 @@ program:
   - Перестать убивать своё тело
   - Посвящать 10 минут в день состоянию осознанности
 
-name: awareness
+permalink: /listbuilder/awareness/
+redirect: /listbuilder-ok/awareness/
+layout: listbuilder
 ---

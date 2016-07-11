@@ -9,5 +9,7 @@ program:
   - А бывают ли волшебные таблетки?
   - Часть третья. Грамотно тратить
 
-name: money
+permalink: /listbuilder/money/
+redirect: /listbuilder-ok/money/
+layout: listbuilder
 ---

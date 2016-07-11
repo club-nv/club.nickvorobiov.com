@@ -10,5 +10,7 @@ program:
   - Как меньше думать и быть здесь и сейчас
   - Как стать осознанным
 
-name: netupin
+permalink: /listbuilder/netupin/
+redirect: /listbuilder-ok/netupin/
+layout: listbuilder
 ---

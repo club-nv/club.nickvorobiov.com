@@ -11,5 +11,7 @@ program:
   - Как сломать вредную привычку
   - Как создать полезную привычку
 
-name: privychki
+permalink: /listbuilder/privychki/
+redirect: /listbuilder-ok/privychki/
+layout: listbuilder
 ---

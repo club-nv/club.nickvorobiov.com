@@ -10,5 +10,7 @@ program:
   - Техника «А что такого страшного...»
   - Как тренировать себя быть смелым и не сломать шею
 
-name: fear
+permalink: /listbuilder/fear/
+redirect: /listbuilder-ok/fear/
+layout: listbuilder
 ---

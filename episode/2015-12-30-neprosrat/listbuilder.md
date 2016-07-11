@@ -7,5 +7,7 @@ program:
   - Вдохновение и мотивация
   - Домашнее задание
 
-name: neprosrat
+permalink: /listbuilder/neprosrat/
+redirect: /listbuilder-ok/neprosrat/
+layout: listbuilder
 ---

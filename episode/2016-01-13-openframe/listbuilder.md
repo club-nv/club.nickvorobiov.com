@@ -18,5 +18,7 @@ program:
   - Насколько важно иметь в жизни наставника
   - Как понять, чего хочется именно мне
 
-name: openframe
+permalink: /listbuilder/openframe/
+redirect: /listbuilder-ok/openframe/
+layout: listbuilder
 ---

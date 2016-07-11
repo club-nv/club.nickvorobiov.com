@@ -19,5 +19,7 @@ program:
   - Сохранение
   - Приумножение
 
-name: personal-budget
+permalink: /listbuilder/personal-budget/
+redirect: /listbuilder-ok/personal-budget/
+layout: listbuilder
 ---

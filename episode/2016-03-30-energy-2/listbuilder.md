@@ -19,5 +19,7 @@ gains:
   - Стать бодрее, активнее и энергичнее
   - Избавиться от негативных эмоций, напряжения и стресса
 
-name: energy-2
+permalink: /listbuilder/energy-2/
+redirect: /listbuilder-ok/energy-2/
+layout: listbuilder
 ---

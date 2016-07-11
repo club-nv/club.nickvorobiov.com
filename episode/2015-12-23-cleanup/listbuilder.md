@@ -8,5 +8,7 @@ program:
   - Станешь меньше уставать и отвлекаться
   - И благодаря этому успевать гораздо больше
 
-name: cleanup
+permalink: /listbuilder/cleanup/
+redirect: /listbuilder-ok/cleanup/
+layout: listbuilder
 ---
