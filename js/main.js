@@ -17,21 +17,6 @@ $(function() {
 		$(this).hide();
 	});
 
-	// sticker
-
-  if ($('.s-about').length) {
-  	var about_bottom = $('.s-about').offset().top + $('.s-about').outerHeight(true);
-  	var page_height = $('body').height();
-  	
-  	if (!device.mobile() && !device.tablet()) {
-  		$(".js-sticker-about").sticky({
-  			topSpacing: 0,
-  			bottomSpacing: page_height - about_bottom,
-  			zIndex: -1,
-  		});
-  	}
-  }
-
 	// Smooth scroll
 
 	$(document).on('click', '.js-scr', function(e){
@@ -97,5 +82,22 @@ $(function() {
       setTimeout(notice_hide, time);
     }
   };
-});
 
+
+  // sticker
+
+  var controller = new ScrollMagic.Controller();
+
+  var scene = new ScrollMagic.Scene(
+    {triggerElement: ".s-about__sticker-trigger-start", triggerHook: "onEnter"})
+    .setClassToggle(".s-about__sticker", "s-about__sticker--affix-start")
+    //.addIndicators({name: "1 - add a class"}) // add indicators (requires plugin)
+    .addTo(controller);
+
+  var scene = new ScrollMagic.Scene(
+    {triggerElement: ".s-about__sticker-trigger-finish", triggerHook: "onEnter"})
+    .setClassToggle(".s-about__sticker", "s-about__sticker--affix-finish")
+    //.addIndicators({name: "1 - add a class"}) // add indicators (requires plugin)
+    .addTo(controller);
+
+});

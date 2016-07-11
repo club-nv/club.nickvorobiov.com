@@ -1,18 +1,14 @@
 .s-about {
   background: $color-back;
+  position: relative;
+
   h2 {
     margin: 0.750em 0;
   }
   .introtext {
     margin-bottom: 3.125em;
   }
-  .sticky-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: -1
-  }
+
   &__sticker {
     background: #efefef url(../images/b_main.jpg) bottom right no-repeat;
     background-size: 50%;
@@ -23,6 +19,30 @@
     right: 0;
     left: 0;
     z-index: -1;
+
+    &-trigger-start {
+      position: absolute;
+      top: 100vh;
+      z-index: -1;
+    }
+
+    &-trigger-finish {
+      position: absolute;
+      bottom: 0;
+    }
+
+    &--affix {
+      &-start {
+        position: fixed;
+        bottom: 0;
+      }
+
+      &-finish {
+        position: absolute;
+        top: inherit;
+        bottom: 0;
+      }
+    }
   }
 
   &__link {
