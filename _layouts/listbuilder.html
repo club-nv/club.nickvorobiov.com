@@ -42,6 +42,20 @@ layout: base
       </div>
     </section>
 
+    {% if page.gains %}
+      <section class="section section--no-bottom-padding">
+        <div class="container">
+          <h2 class="title">Мастер-класс поможет тебе</h2>
+          <p class="introtext">
+          {% for gain in page.gains %}
+            {{ gain }}
+            <br/>
+          {% endfor %}
+          </p>
+        </div>
+      </section>
+    {% endif %}
+
     <section class="section s-step">
       <div class="container">
         <h2 class="title">Программа</h2>

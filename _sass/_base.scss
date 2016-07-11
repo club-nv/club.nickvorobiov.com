@@ -83,6 +83,19 @@
 }
 .section {
   padding: 7.143em 0;
+
+  &--no-bottom-padding {
+    padding-bottom: 0;
+  }
+
+  &--no-top-padding {
+    padding-top: 0;
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
+
   &:first-child {
     & .title {
       margin-top: 0;
