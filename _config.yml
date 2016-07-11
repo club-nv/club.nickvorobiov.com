@@ -20,12 +20,6 @@ collections:
   pages-live:
     output: true
     permalink: /live/:path/
-  pages-enjoy:
-    output: true
-    permalink: /enjoy/:path/
-  pages-listbuilder:
-    output: true
-    permalink: /listbuilder/:path/
 
 defaults:
   - scope:
@@ -33,15 +27,5 @@ defaults:
       type: pages-live
     values:
       layout: live
-  - scope:
-      path: ""
-      type: pages-enjoy
-    values:
-      layout: enjoy
-  - scope:
-      path: ""
-      type: pages-listbuilder
-    values:
-      layout: listbuilder
 
 permalink: /:title/
