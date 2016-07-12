@@ -69,6 +69,10 @@
   justify-content: center;
 }
 
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
 .row {
   /* safari fix */
   display: -webkit-flex;
