@@ -1,0 +1,43 @@
+.s-summary {
+  h1.title {
+    margin-bottom: 100px;
+  }
+  
+  h2 {
+    margin-bottom: 25px;
+    margin-top: 30px;
+  }
+
+  h2:after
+  {
+    content:' ';
+    display:block;
+    border-bottom: 4px solid #f0c113;
+    width: 70px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  hr {
+    margin: 40px 0;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  ul, ol {
+    margin: 15px 0;
+    padding-left: 30px;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
