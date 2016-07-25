@@ -1,8 +1,9 @@
 ---
-layout: post
-title: КЛР 6 июля 2016 Нетворкинг
-permalink: /klr-2016-07-06-networking-summary/
+title: Конспект КЛР 2016-07-06 Нетворкинг
+layout: summary
 ---
+
+--
 
 ## Спасибо за вопросы
 

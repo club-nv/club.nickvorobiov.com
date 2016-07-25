@@ -1,8 +1,9 @@
 ---
-layout: post
-title: КЛР 27 апреля 2016 Принятие
-permalink: /klr-2016-04-27-acceptance-summary/
+title: Конспект КЛР 2016-04-27 Принятие
+layout: summary
 ---
+
+--
 
 ## Что такое «принятие»
 

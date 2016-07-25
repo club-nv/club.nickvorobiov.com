@@ -1,8 +1,9 @@
 ---
-layout: post
-title: КЛР 11 мая 2016 Нетупин
-permalink: /klr-2016-05-11-netupin-summary/
+title: Конспект КЛР 2016-05-11 Нетупин
+layout: summary
 ---
+
+--
 
 ## Что такое «тупняк»
 

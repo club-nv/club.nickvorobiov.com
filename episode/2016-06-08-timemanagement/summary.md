@@ -1,8 +1,9 @@
 ---
-layout: post
-title: КЛР 8 июня 2016 Тайм-менеджмент
-permalink: /klr-2016-06-08-timemanagement-summary/
+title: Конспект КЛР 2016-06-08 Тайм-менеджмент
+layout: summary
 ---
+
+--
 
 # Пять Принципов
 

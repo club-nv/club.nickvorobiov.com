@@ -1,8 +1,9 @@
 ---
-layout: post
-title: Конспект КЛР 30 марта 2016 Как перестать уставать и терять силы
-permalink: /klr-2016-03-30-energy-2-summary/
+title: Конспект КЛР 2016-03-30 Личная энергия
+layout: summary
 ---
+
+--
 
 Клуб личностного роста Николая Воробьёва  
 [http://soedinennost.com/klr](http://soedinennost.com/klr)

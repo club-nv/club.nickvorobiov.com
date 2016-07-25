@@ -1,8 +1,9 @@
 ---
-layout: post
-title: 6 апреля 2016 Как прокачать самооценку
-permalink: /klr-2016-04-06-selfesteem-summary/
+title: Конспект КЛР 2016-04-06 Как прокачать самооценку
+layout: summary
 ---
+
+--
 
 ## Про члены
 

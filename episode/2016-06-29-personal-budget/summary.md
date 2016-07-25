@@ -1,8 +1,9 @@
 ---
-layout: post
-title: КЛР 29 июня 2016 Личный бюджет
-permalink: /klr-2016-06-29-personal-budget-summary/
+title: Конспект КЛР 2016-06-29 Личный бюджет
+layout: summary
 ---
+
+--
 
 Финансовый супергерой. Как составить личный бюджет
 

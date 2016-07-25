@@ -1,8 +1,9 @@
 ---
-layout: post
-title: КЛР 1 июня 2016 Как оставаться позитивным несмотря ни&nbsp;на&nbsp;что II
-permalink: /klr-2016-06-01-pom-2-summary/
+title: Конспект КЛР 2016-06-01 Оптимизм
+layout: summary
 ---
+
+--
 
 ## Котлеты отдельно
 

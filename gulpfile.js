@@ -20,8 +20,11 @@ gulp.task('connectBuild', function() {
 gulp.task('jekyll', function(done) {
   notify('Compiling Jekyll');
 
-  return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-  .on('close', done);
+  return cp.spawn('node', ['./preprocess-episodes.js'], {stdio: 'inherit'})
+  .on('close', function(){
+    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+    .on('close', done);
+  });
 });
 
 gulp.task('jekyll-rebuild', ['jekyll'], function() {    
