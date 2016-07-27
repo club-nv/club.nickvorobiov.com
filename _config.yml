@@ -20,6 +20,8 @@ collections:
   pages-live:
     output: true
     permalink: /live/:path/
+  ep:
+    output: false
 
 defaults:
   - scope:
