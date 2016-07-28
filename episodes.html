@@ -1,0 +1,46 @@
+---
+layout: base
+cats:
+  - name: attitude
+    title: Управление собой
+  - name: awareness
+    title: Осознанность
+  - name: productivity
+    title: Продуктивность
+  - name: sociability
+    title: Коммуникабельность
+---
+
+<section class="section">
+  <div class="container">
+    {% for cat in page.cats %}
+      <h1>{{ cat.title }}</h1>
+
+      {% for ep in site.ep %}
+        {% if ep.cat == cat.name %}
+          <h4>{{ ep.title }}</h4>
+
+          <p class="introtext">{{ ep.introtext }}</p>
+
+          {% if ep.gains %}
+            <p>
+            {% for item in ep.gains %}
+              {{ item }}
+              <br/>
+            {% endfor %}
+            </p>
+          {% endif %}
+
+          {% if ep.program %}
+            <p>
+            {% for item in ep.program %}
+              {{ item }}
+              <br/>
+            {% endfor %}
+            </p>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
