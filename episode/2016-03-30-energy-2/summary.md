@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-03-30 Личная энергия
+title: Личная энергия
 layout: summary
+permalink: /episode/2016-03-30-energy-2/summary/
 ---
 
---
 
 Клуб личностного роста Николая Воробьёва  
 [http://soedinennost.com/klr](http://soedinennost.com/klr)

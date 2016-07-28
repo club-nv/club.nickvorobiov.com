@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-06-22 Мастер дискуссий
+title: Мастер дискуссий
 layout: summary
+permalink: /episode/2016-06-22-discuss/summary/
 ---
 
---
 
 ## 0. Цель разговора
 

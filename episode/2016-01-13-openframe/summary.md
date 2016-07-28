@@ -1,4 +1,5 @@
 ---
-title: Конспект КЛР 2016-01-13 Открытая рамка
+title: Открытая рамка
 layout: summary
+permalink: /episode/2016-01-13-openframe/summary/
 ---

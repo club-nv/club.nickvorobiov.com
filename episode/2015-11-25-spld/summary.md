@@ -1,4 +1,5 @@
 ---
-title: Конспект КЛР 2015-11-25 Предназначение
+title: Предназначение
 layout: summary
+permalink: /episode/2015-11-25-spld/summary/
 ---

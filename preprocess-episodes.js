@@ -7,7 +7,7 @@ function load(filename) {
   var content;
   var i = data.indexOf("\n---\n\n");
   if (i > 0) {
-    content = data.substring(i+2);
+    content = data.substring(i+5);
     data = data.substring(0, i);
   }
 
@@ -57,6 +57,7 @@ fs.readdirSync(srcdir).forEach(function(catfoldername) {
           listbuilder: '/listbuilder/' + slug + '/',
           ok: '/listbuilder-ok/' + slug + '/',
           enjoy: '/enjoy/' + slug + '/' + doc.event + '/',
+          summary: '/episode/' + date + '-' + slug + '/summary/',
         }
 
         var listbuilder = {
@@ -88,8 +89,9 @@ fs.readdirSync(srcdir).forEach(function(catfoldername) {
         });
 
         save(dir + '/summary.md', {
-          title: 'Конспект КЛР ' + date + ' ' + doc.title,
-          layout: 'summary'
+          title: doc.title,
+          layout: 'summary',
+          permalink: links.summary
         }, doc.content);
       }
     })

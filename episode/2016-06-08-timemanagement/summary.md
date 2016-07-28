@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-06-08 Тайм-менеджмент
+title: Тайм-менеджмент
 layout: summary
+permalink: /episode/2016-06-08-timemanagement/summary/
 ---
 
---
 
 # Пять Принципов
 

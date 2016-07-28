@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-07-20 Отношения
+title: Отношения
 layout: summary
+permalink: /episode/2016-07-20-relationships/summary/
 ---
 
---
 
 ![](/episode/2016-07-20-relationships/images/04.jpg)
 

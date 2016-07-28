@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-03-23 Как стать осознанным
+title: Как стать осознанным
 layout: summary
+permalink: /episode/2016-03-23-awareness/summary/
 ---
 
---
 
 ## Что такое неосознанность
 

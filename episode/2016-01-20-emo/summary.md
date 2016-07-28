@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-01-20 Управление эмоциями
+title: Управление эмоциями
 layout: summary
+permalink: /episode/2016-01-20-emo/summary/
 ---
 
---
 
 Новости клуба!
 

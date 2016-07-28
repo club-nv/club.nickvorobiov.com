@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-04-13 Целеустремлённость
+title: Целеустремлённость
 layout: summary
+permalink: /episode/2016-04-13-consistency-2/summary/
 ---
 
---
 
 ## Кто помнит тему вебинара?
 

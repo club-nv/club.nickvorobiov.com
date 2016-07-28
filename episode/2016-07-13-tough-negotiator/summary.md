@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-07-13 Жёсткие переговоры
+title: Жёсткие переговоры
 layout: summary
+permalink: /episode/2016-07-13-tough-negotiator/summary/
 ---
 
---
 
 ## Что такое жёсткие переговоры
 

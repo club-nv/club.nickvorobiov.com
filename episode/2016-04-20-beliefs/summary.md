@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-04-20 Убеждения
+title: Убеждения
 layout: summary
+permalink: /episode/2016-04-20-beliefs/summary/
 ---
 
---
 
 ## Что такое «убеждения»
 

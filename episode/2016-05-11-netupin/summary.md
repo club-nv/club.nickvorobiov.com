@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-05-11 Нетупин
+title: Нетупин
 layout: summary
+permalink: /episode/2016-05-11-netupin/summary/
 ---
 
---
 
 ## Что такое «тупняк»
 

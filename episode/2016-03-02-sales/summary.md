@@ -1,4 +1,5 @@
 ---
-title: Конспект КЛР 2016-03-02 Как стать лучшим продавцом
+title: Как стать лучшим продавцом
 layout: summary
+permalink: /episode/2016-03-02-sales/summary/
 ---

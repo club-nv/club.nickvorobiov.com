@@ -1,4 +1,5 @@
 ---
-title: Конспект КЛР 2015-11-18 Как стать энергичным
+title: Как стать энергичным
 layout: summary
+permalink: /episode/2015-11-18-energy/summary/
 ---

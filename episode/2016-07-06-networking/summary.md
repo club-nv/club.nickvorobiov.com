@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-07-06 Нетворкинг
+title: Нетворкинг
 layout: summary
+permalink: /episode/2016-07-06-networking/summary/
 ---
 
---
 
 ## Спасибо за вопросы
 

@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-04-06 Как прокачать самооценку
+title: Как прокачать самооценку
 layout: summary
+permalink: /episode/2016-04-06-selfesteem/summary/
 ---
 
---
 
 ## Про члены
 

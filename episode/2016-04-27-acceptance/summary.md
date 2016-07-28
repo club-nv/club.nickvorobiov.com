@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-04-27 Принятие
+title: Принятие
 layout: summary
+permalink: /episode/2016-04-27-acceptance/summary/
 ---
 
---
 
 ## Что такое «принятие»
 

@@ -1,9 +1,9 @@
 ---
-title: Конспект КЛР 2016-06-01 Оптимизм
+title: Оптимизм
 layout: summary
+permalink: /episode/2016-06-01-pom-2/summary/
 ---
 
---
 
 ## Котлеты отдельно
 

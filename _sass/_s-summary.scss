@@ -1,6 +1,10 @@
 .s-summary {
   h1.title {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+  }
+
+  h1.title + p.introtext {
+    margin-bottom: 50px;
   }
   
   h2 {

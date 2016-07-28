@@ -1,4 +1,5 @@
 ---
-title: Конспект КЛР 2015-12-02 Три кита вовлечения
+title: Три кита вовлечения
 layout: summary
+permalink: /episode/2015-12-02-enrol/summary/
 ---
