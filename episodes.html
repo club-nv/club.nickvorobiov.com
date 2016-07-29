@@ -12,36 +12,59 @@ cats:
 permalink: /episodes/
 ---
 
-<section class="section">
-  <div class="container">
-    {% for cat in page.cats %}
-      <h1>{{ cat.title }}</h1>
+<div class="root-layout">
+  {% include header.html %}
+  <main class="main" role="main">
+    <section class="section s-episodes">
+      <div class="container">
+        <h1 class="title title--center">Уроки Клуба личностного роста</h1>
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2">
+            {% for cat in page.cats %}
+              <h3 class="title">Категория «{{ cat.title }}»</h3>
 
-      {% for ep in site.ep %}
-        {% if ep.cat == cat.name %}
-          <h4>{{ ep.title }}</h4>
+              {% for ep in site.ep %}
+                <div class="s-episodes__item">
+                  {% if ep.cat == cat.name %}
+                    <p class="s-episodes__link js-show-listitem"><span>{{ ep.title }}</span></p>
 
-          <p class="introtext">{{ ep.introtext }}</p>
+                    <div class="s-episodes__descr hidden">
+                      <h4 class="title">Урок «{{ ep.title }}»</h4>
+                      <p class="introtext">{{ ep.introtext }}</p>
+                      {% if ep.gains %}
+                        <p>
+                        {% for item in ep.gains %}
+                          {{ item }}
+                          <br/>
+                        {% endfor %}
+                        </p>
+                      {% endif %}
 
-          {% if ep.gains %}
-            <p>
-            {% for item in ep.gains %}
-              {{ item }}
-              <br/>
+                      {% if ep.program %}
+                        <p>
+                        {% for item in ep.program %}
+                          {{ item }}
+                          <br/>
+                        {% endfor %}
+                        </p>
+                      {% endif %}
+
+                      <div class="s-episodes__buy">
+                        <a class="btn" href="/buy-episode/{{ ep.slug }}/">Купить урок «{{ ep.title }}» за 390 рублей</a>
+                      </div>
+                    </div>
+                  {% endif %}
+                </div>
+              {% endfor %}
+
+              <div class="s-episodes__buy">
+                <a class="btn" href="/buy-cat/{{ cat.name }}/">Купить все уроки категории «{{ cat.title }}» за 2990 рублей</a>
+              </div>
             {% endfor %}
-            </p>
-          {% endif %}
-
-          {% if ep.program %}
-            <p>
-            {% for item in ep.program %}
-              {{ item }}
-              <br/>
-            {% endfor %}
-            </p>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </div>
-</section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  {% include footer.html %}
+</div>

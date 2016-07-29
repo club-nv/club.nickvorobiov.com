@@ -17,6 +17,23 @@ $(function() {
 		$(this).hide();
 	});
 
+  $(document).on('click', '.js-show-listitem', function(e){
+    e.preventDefault();
+
+    $(this).parent().parent().find('div.hidden').hide();
+    $(this).parent().parent().find('.js-show-listitem').fadeIn(300);
+
+    $(this).hide();
+    var descr = $(this).parent().find('div.hidden');
+    descr.fadeIn(300);
+
+    var pageTop = $(window).scrollTop();
+    var elementTop = $(descr).offset().top;
+    if (elementTop < pageTop) {
+      $(window).scrollTop(elementTop-40);
+    }
+  });
+
 	// Smooth scroll
 
 	$(document).on('click', '.js-scr', function(e){

@@ -58,6 +58,8 @@ fs.readdirSync(srcdir).forEach(function(catfoldername) {
           ok: '/listbuilder-ok/' + slug + '/',
           enjoy: '/enjoy/' + slug + '/' + doc.event + '/',
           summary: '/episode/' + date + '-' + slug + '/summary/',
+          buy: '/buy-episode/' + slug + '/',
+          paid: '/paid-episode/' + slug + '/' + doc.event + '/',
         }
 
         var listbuilder = {
@@ -93,6 +95,19 @@ fs.readdirSync(srcdir).forEach(function(catfoldername) {
           layout: 'summary',
           permalink: links.summary
         }, doc.content);
+
+        save(dir + '/buy.md', {
+          title: doc.title,
+          permalink: links.buy,
+          redirect: links.paid,
+          layout: 'buy-episode',
+        });
+
+        save(dir + '/paid.md', {
+          permalink: links.paid,
+          redirect: links.enjoy,
+          layout: 'paid-episode'
+        });
       }
     })
   }

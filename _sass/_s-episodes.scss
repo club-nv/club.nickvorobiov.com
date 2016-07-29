@@ -1,0 +1,33 @@
+.s-episodes {
+  h3.title {
+    margin-top: 3em !important;
+  }
+
+  &__link {
+    margin: 0;
+
+    span {
+      display: inline-block;
+      cursor: pointer;
+      line-height: .9;
+      text-decoration: none;
+      border-bottom: 1px dashed lighten($color-font,30%);
+
+      &:hover {
+        border-color: transparent;
+      }
+    }
+  }
+
+  &__descr {
+    margin: 2em;
+
+    p.introtext {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  &__buy {
+    margin-top: 2em;
+  }
+}
