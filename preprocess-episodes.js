@@ -60,6 +60,7 @@ fs.readdirSync(srcdir).forEach(function(catfoldername) {
           summary: '/episode/' + date + '-' + slug + '/summary/',
           buy: '/buy-episode/' + slug + '/',
           paid: '/paid-episode/' + slug + '/' + doc.event + '/',
+          live: '/live/' + slug + '/',
         }
 
         var listbuilder = {
@@ -107,6 +108,12 @@ fs.readdirSync(srcdir).forEach(function(catfoldername) {
           permalink: links.paid,
           redirect: links.enjoy,
           layout: 'paid-episode'
+        });
+
+        save(dir + '/late.md', {
+          permalink: links.live,
+          redirect: '/late/',
+          layout: 'live-late'
         });
       }
     })
