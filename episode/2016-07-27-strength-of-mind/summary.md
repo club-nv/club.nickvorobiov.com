@@ -2,6 +2,7 @@
 title: Сила духа
 layout: summary
 permalink: /episode/2016-07-27-strength-of-mind/summary/
+buy: /buy-episode/strength-of-mind/
 ---
 
 

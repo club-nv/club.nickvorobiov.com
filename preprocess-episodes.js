@@ -94,7 +94,8 @@ fs.readdirSync(srcdir).forEach(function(catfoldername) {
         save(dir + '/summary.md', {
           title: doc.title,
           layout: 'summary',
-          permalink: links.summary
+          permalink: links.summary,
+          buy: links.buy
         }, doc.content);
 
         save(dir + '/buy.md', {

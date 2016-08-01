@@ -2,6 +2,7 @@
 title: Жёсткие переговоры
 layout: summary
 permalink: /episode/2016-07-13-tough-negotiator/summary/
+buy: /buy-episode/tough-negotiator/
 ---
 
 

@@ -2,6 +2,7 @@
 title: Позитивный образ мышления
 layout: summary
 permalink: /episode/2016-05-18-pom/summary/
+buy: /buy-episode/pom/
 ---
 
 

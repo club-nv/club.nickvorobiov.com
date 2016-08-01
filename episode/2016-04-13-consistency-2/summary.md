@@ -2,6 +2,7 @@
 title: Целеустремлённость
 layout: summary
 permalink: /episode/2016-04-13-consistency-2/summary/
+buy: /buy-episode/consistency-2/
 ---
 
 

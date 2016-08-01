@@ -2,6 +2,7 @@
 title: Страх
 layout: summary
 permalink: /episode/2016-02-03-fear/summary/
+buy: /buy-episode/fear/
 ---
 
 

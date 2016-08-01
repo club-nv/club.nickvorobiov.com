@@ -2,6 +2,7 @@
 title: Ответственность
 layout: summary
 permalink: /episode/2016-05-25-responsible/summary/
+buy: /buy-episode/responsible/
 ---
 
 

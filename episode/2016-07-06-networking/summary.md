@@ -2,6 +2,7 @@
 title: Нетворкинг
 layout: summary
 permalink: /episode/2016-07-06-networking/summary/
+buy: /buy-episode/networking/
 ---
 
 

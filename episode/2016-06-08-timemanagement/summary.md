@@ -2,6 +2,7 @@
 title: Тайм-менеджмент
 layout: summary
 permalink: /episode/2016-06-08-timemanagement/summary/
+buy: /buy-episode/timemanagement/
 ---
 
 

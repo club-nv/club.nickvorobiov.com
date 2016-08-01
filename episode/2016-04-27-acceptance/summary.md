@@ -2,6 +2,7 @@
 title: Принятие
 layout: summary
 permalink: /episode/2016-04-27-acceptance/summary/
+buy: /buy-episode/acceptance/
 ---
 
 

@@ -2,6 +2,7 @@
 title: Тренировка мозга
 layout: summary
 permalink: /episode/2016-03-09-brain/summary/
+buy: /buy-episode/brain/
 ---
 
 

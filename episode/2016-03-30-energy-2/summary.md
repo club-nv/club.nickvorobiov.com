@@ -2,6 +2,7 @@
 title: Личная энергия
 layout: summary
 permalink: /episode/2016-03-30-energy-2/summary/
+buy: /buy-episode/energy-2/
 ---
 
 

@@ -2,6 +2,7 @@
 title: Как прокачать самооценку
 layout: summary
 permalink: /episode/2016-04-06-selfesteem/summary/
+buy: /buy-episode/selfesteem/
 ---
 
 

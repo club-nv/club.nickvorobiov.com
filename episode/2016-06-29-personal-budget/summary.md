@@ -2,6 +2,7 @@
 title: Личный бюджет
 layout: summary
 permalink: /episode/2016-06-29-personal-budget/summary/
+buy: /buy-episode/personal-budget/
 ---
 
 

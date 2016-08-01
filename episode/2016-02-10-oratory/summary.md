@@ -2,6 +2,7 @@
 title: Как стать хорошим оратором
 layout: summary
 permalink: /episode/2016-02-10-oratory/summary/
+buy: /buy-episode/oratory/
 ---
 
 

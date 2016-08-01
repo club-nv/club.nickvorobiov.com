@@ -2,6 +2,7 @@
 title: Убеждения
 layout: summary
 permalink: /episode/2016-04-20-beliefs/summary/
+buy: /buy-episode/beliefs/
 ---
 
 

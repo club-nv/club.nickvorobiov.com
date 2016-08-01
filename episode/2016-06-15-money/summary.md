@@ -2,6 +2,7 @@
 title: Деньги
 layout: summary
 permalink: /episode/2016-06-15-money/summary/
+buy: /buy-episode/money/
 ---
 
 

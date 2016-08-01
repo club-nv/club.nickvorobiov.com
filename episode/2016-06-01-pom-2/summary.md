@@ -2,6 +2,7 @@
 title: Оптимизм
 layout: summary
 permalink: /episode/2016-06-01-pom-2/summary/
+buy: /buy-episode/pom-2/
 ---
 
 

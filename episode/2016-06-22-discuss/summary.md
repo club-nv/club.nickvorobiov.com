@@ -2,6 +2,7 @@
 title: Мастер дискуссий
 layout: summary
 permalink: /episode/2016-06-22-discuss/summary/
+buy: /buy-episode/discuss/
 ---
 
 

@@ -2,6 +2,7 @@
 title: Отношения
 layout: summary
 permalink: /episode/2016-07-20-relationships/summary/
+buy: /buy-episode/relationships/
 ---
 
 
