@@ -16,7 +16,7 @@ program:
   - Домашнее задание
 stream: GnzJZcy2gzk
 event: c1tn1s7opbptjlsjl68ur01d1mk
-cat: awareness
+cat: attitude
 ---
 
 ## Что такое «зона комфорта»
