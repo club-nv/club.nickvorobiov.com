@@ -7,7 +7,8 @@ exclude:
   - README.md
   - gulpfile.js
 yandex_metrika: 38294550
-google_analytics: UA-46456269-14
+#google_analytics: UA-46456269-14 # me@prorealnost.com
+google_analytics: UA-81905145-1 # ad@prorealnost.com
 
 title: "Клуб личностного роста Николая Воробьева"
 description: "Клуб — это инструмент, который помогает добиваться больших результатов с помощью развития личных качеств"
