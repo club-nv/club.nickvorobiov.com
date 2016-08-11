@@ -1,5 +1,5 @@
 ---
-title: Отношения
+title: Осознанные отношения и знакомства
 layout: summary
 permalink: /episode/2016-07-20-relationships/summary/
 buy: /buy-episode/relationships/
