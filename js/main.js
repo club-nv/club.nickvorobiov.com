@@ -50,15 +50,23 @@ $(function() {
     var msg = $(this).serialize();
 
     var $vk = $(this).find('[name=vk]');
+    var $fb = $(this).find('[name=fb]');
 
     var post_params = {
       vk: $vk.val(),
+      fb: $fb.val(),
     };
 
     if(post_params.vk !== undefined && !post_params.vk.length) {
       $vk.addClass('error');
       e.preventDefault();
       return message.error('Укажи ссылку на свою страницу ВКонтакте, пожалуйста!', 'warning');
+    }
+
+    if(post_params.fb !== undefined && !post_params.fb.length) {
+      $fb.addClass('error');
+      e.preventDefault();
+      return message.error('Укажи ссылку на свой профиль в Facebook, пожалуйста!', 'warning');
     }
   });
 
