@@ -1,6 +1,7 @@
 ---
+# вариант для фейсбука — с вводом адреса страницы фб вместо вк
 layout: base
-experiment_key: 127042908-0
+permalink: /fb/
 ---
 
 <div class="root-layout">
@@ -82,12 +83,12 @@ experiment_key: 127042908-0
     <div class="form">
       <h3 class="title">Вступить в клуб</h3>
       
-      <p>Члены Клуба общаются во&nbsp;&laquo;ВКонтакте&raquo;, поэтому, чтобы вступить в&nbsp;Клуб, укажи ссылку на&nbsp;страничку</p>
+      <p>Чтобы вступить в&nbsp;Клуб, укажи ссылку на&nbsp;свой профиль в Facebook</p>
 
       <form method="post" action="http://love.prorealnost.com/order.php">
         <ul class="form__wrap row">
           <li class="form__item col-xs-6">
-            <input type="text" name="vk" class="input input--outline" placeholder="https://vk.com/id***">
+            <input type="text" name="fb" class="input input--outline" placeholder="https://www.facebook.com/***">
           </li>
           <li class="form__item col-xs-4">
             <button class="btn btn-primary">
