@@ -54,3 +54,25 @@
     }
   }
 }
+
+@media (max-width: $xmd) {
+  .s-main {
+    &__introtext { 
+      max-width: 100%;
+    }
+    &__sign {
+      right: 15px;
+      bottom: 10px;
+    }
+  }
+}
+@media (max-width: $xs) {
+  .s-main {
+    padding: 0 0 2.143em 0;   
+    min-height: 595px;
+    &__inner {
+      min-height: 640px;
+    }
+  }
+}
+

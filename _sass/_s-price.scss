@@ -33,3 +33,50 @@
     }
   }
 }
+
+@media (max-width: $md) {
+  .s-price {
+    &__item-button {    
+      padding: 1.428em 0em;
+    }
+
+    &__item-text {
+      min-height: 220px;
+    }
+  }
+}
+
+@media (max-width: $xmd) {
+  .s-price {
+    &__item-button {
+      .btn { 
+        min-width: auto;     
+        padding: 0 2%;
+      }
+    }
+
+    &__item-text {
+      min-height: 267px;
+    }
+  } 
+}
+  
+@media (max-width: $xxmd) {
+  .s-price {
+    &__row {
+      .col-xs-4 { 
+        max-width: 100%;     
+        flex-basis: 100%;
+      }
+    }
+    
+    &__item-text {
+      min-height: 0;
+    }
+  } 
+}
+@media (max-width: $xs) {
+  .s-price {
+    padding-bottom: 3em;
+  }
+}

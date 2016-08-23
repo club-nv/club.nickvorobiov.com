@@ -59,3 +59,23 @@
     }
   }
 }
+
+@media (max-width: $xsm) {
+  .s-about {
+    &__sticker { 
+      background-size: 50%; 
+    }
+  }   
+}
+
+@media (max-width: $sm) {
+  .s-about {
+    .container {  
+      padding: 2.143em 1.071rem;
+    }
+
+    &__sticker {
+      background: none;
+    }
+  } 
+}

@@ -24,3 +24,25 @@
     margin-bottom: 0;
   }
 }
+
+@media (max-width: $md) {
+  .s-results {
+    &__row {          
+      display: block; 
+    }
+
+    &__item {   
+      margin-right: 1%;    
+      margin-bottom: 2.857em;  
+    }
+  }  
+}
+
+@media (max-width: $xmd) {
+  .s-results {
+    &__item {    
+      margin-right: 0; 
+    }
+  }
+}
+  

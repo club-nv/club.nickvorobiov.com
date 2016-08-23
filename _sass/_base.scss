@@ -33,7 +33,7 @@
 .container {
   padding: 0 1.071rem;
   min-height: 100%;
-  width: 83.750rem;
+  // width: 83.750rem;
   margin: 0 auto;
 }
 
@@ -174,5 +174,45 @@
     &--yt {
       background-position: -48px 0 !important;
     }
+  }
+}
+
+@media (min-width: $xxlg) {
+  .container {
+    width: 83.750rem; 
+  }
+}
+
+@media (max-width: $md) {
+  .section { 
+    padding: 2.143em 0;
+  }
+}
+
+@media (max-width: $sm) {
+  .section {  
+    padding: 0.143em 0;
+  }
+}
+
+@media (max-width: $xs) {
+  h2 { 
+    font-size: 1.857em !important; 
+    margin: 40px 0;
+  }
+
+  p {    
+    margin: 0 0 1.143em; 
+  }
+
+  .col-xs-6 {
+    flex-basis: 100%;     
+    max-width: 100%;
+  }
+}
+
+@media (max-width: $xxs) {
+  header {  
+    display: none;
   }
 }

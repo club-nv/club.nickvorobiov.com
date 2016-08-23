@@ -22,3 +22,17 @@
     margin: 25px 0 10px;
   }
 }
+
+@media (max-width: $xmd) {
+  .s-welcome {
+    .col-xs-7 { 
+      max-width: 100%;     
+      flex-basis: 100%;
+    }
+
+    .col-xs-5 { 
+      max-width: 100%;    
+      flex-basis: 100%;
+    }
+  } 
+}
