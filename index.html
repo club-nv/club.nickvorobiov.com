@@ -51,7 +51,7 @@ layout: base
               </p>
             </div>
             <div class="s-price__item-button">
-              <button class="btn btn-vk" data-modal-target="modal">Вступить бесплатно</button>
+              <button class="btn btn-vk" data-modal-target="modal" onclick="goog_report_conversion()">Вступить бесплатно</button>
             </div>
           </div>
         </div>
@@ -107,3 +107,5 @@ layout: base
   VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
   VK.Widgets.Comments("vk_comments", {limit: 20, width: "750", attach: "*"});
 </script>
+
+{% include microconversion.html %}
