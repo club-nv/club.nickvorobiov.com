@@ -126,3 +126,58 @@ $(function() {
     .addTo(controller);
 
 });
+
+// сохраняем поля querystring utm_* в куках и потом передаём в формы в поле traffic_source
+
+function getParameterByName(name) {
+  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+  return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function getURLUTMParameters() {
+  var pageURL = window.location.search.substring(1);
+  var URLVariables = pageURL.split('&');
+  var res = {};
+  for (var i = 0; i < URLVariables.length; i++) {
+    var parameterName = URLVariables[i].split('=');
+    if (parameterName[0].substr(0, 4) == 'utm_') {
+      res[parameterName[0]] = parameterName[1];
+    }
+  }
+  return res;
+}
+
+function getCookie(cookieName){
+  var name = cookieName + "=";
+  var cookieArray = document.cookie.split(';');
+  for (var i = 0; i < cookieArray.length; i++) {
+    var cookie = cookieArray[i].replace(/^\s+|\s+$/g, '');
+    if (cookie.indexOf(name)==0) {
+      return cookie.substring(name.length, cookie.length);
+    }
+  }
+  return null;
+} 
+
+function setCookie(cookie, value){
+  var expires = new Date();
+  expires.setTime(expires.getTime() + 62208000000); //1000*60*60*24*30*24 (2 years)
+  document.cookie = cookie + "=" + value + "; expires=" + expires.toGMTString() + "; path=/";
+}
+
+var utmParams = getURLUTMParameters();
+var trafficSource;
+if (Object.keys(utmParams).length > 0) {
+  var cookie = JSON.stringify(utmParams);
+  console.log(cookie);
+  setCookie('traffic_source', cookie);
+} else {
+  trafficSource = getCookie('traffic_source');
+  console.log(trafficSource);
+}
+
+$(document).ready(function() {
+  $('input[name=traffic_source]').val(trafficSource);
+});
