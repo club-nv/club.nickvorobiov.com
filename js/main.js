@@ -51,10 +51,12 @@ $(function() {
 
     var $vk = $(this).find('[name=vk]');
     var $fb = $(this).find('[name=fb]');
+    var $email = $(this).find('[name=email]');
 
     var post_params = {
       vk: $vk.val(),
       fb: $fb.val(),
+      email: $email.val(),
     };
 
     if(post_params.vk !== undefined && !post_params.vk.length) {
@@ -67,6 +69,12 @@ $(function() {
       $fb.addClass('error');
       e.preventDefault();
       return message.error('Укажи ссылку на свой профиль в Facebook, пожалуйста!', 'warning');
+    }
+
+    if(post_params.email !== undefined && !post_params.email.length) {
+      $email.addClass('error');
+      e.preventDefault();
+      return message.error('Укажи свой адрес электронной почты, пожалуйста!', 'warning');
     }
   });
 
