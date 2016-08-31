@@ -1,7 +1,7 @@
 ---
 title: Самодисциплина
 introtext: Как развить в себе дисциплину
-stream: naf8119oIUc
-event: c4adqvk2mujah2btrc2mfkq5c7o
-cat: productivity
+permalink: /listbuilder/getdisciplined/
+redirect: /listbuilder-ok/getdisciplined/
+layout: listbuilder
 ---
