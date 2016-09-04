@@ -3,38 +3,41 @@ layout: base
 ---
 
 <div class="root-layout">
-  {% include header.html %}
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <a href="/" class="logo" title="">
+          Николай Воробьёв
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="menu-primary">
+          <li class="menu-primary__item">
+            <a href="#what" class="js-scr" title="">Программа</a>
+          </li>
+          <li class="menu-primary__item">
+            <a href="#about" class="js-scr" title="">О тренере</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <main class="main" role="main">
     <section class="section s-listbuilder-main">
       <div class="container">
         <div class="s-listbuilder-main__inner">
           <h1 class="s-listbuilder-main__title">
-            Клуб личностного роста <br/> Николая Воробьёва
+            {{ page.title }}
           </h1>
           <p class="s-listbuilder-main__introtext">
-            Урок «{{ page.title }}»
+            {{ page.introtext }}
           </p>
           <div class="row">
             <div class="col-xs-9">
-              <div class="form">
-                <form method="post" action="http://love.prorealnost.com/order.php">
-                  <ul class="form__wrap row">
-                    <li class="form__item col-xs-4">
-                      <input type="text" class="input" name="email" placeholder="ivan@ivanov.com">
-                    </li>
-                    <li class="form__item col-xs-4">
-                      <button class="btn btn-primary">
-                        Получить урок
-                      </button>
-                    </li>
-                  </ul>
-                  <input type="hidden" name="traffic_source" />
-                  <input type="hidden" name="trello-list-id" value="578362e2fc28fa1a77ae9318" />
-                  <input type="hidden" name="mailchimp-product-interest-id" value="eb6470d55a" />
-                  <input type="hidden" name="redirect" value="{{ site.url }}{{ page.redirect }}" />
-                  <input type="hidden" name="form" value="header" />
-                </form>
-              </div>
+              <a class="btn btn-primary" href="#join">
+                Получить вебинар
+              </a>
             </div>
           </div>
         </div>
@@ -42,128 +45,47 @@ layout: base
       </div>
     </section>
 
-    <section class="section s-what">
+    <section class="section s-what" id="what">
       <div class="container">
-        <h2 class="title">Клуб помогает добиваться больших результатов с&nbsp;помощью развития личных качеств</h2>
-
-        <p>Клуб объединяет людей, которые хотят развиваться, чтобы достигать серьезных результатов. Но&nbsp;им&nbsp;не&nbsp;хватает энергии, времени, навыков.</p>
-
         <div class="row">
-          <div class="col-xs-6">
-            <h5>Клуб помогает стать быстрым и&nbsp;продуктивным</h5>
-            <p>Ты&nbsp;поймешь как планировать день, правильно распределять задачи и&nbsp;не&nbsp;тормозить</p>
-          </div>
-          <div class="col-xs-6">
-            <h5>Коммуникабельным и&nbsp;вдохновляющим</h5>
-            <p>Станешь более общительным, научишься вдохновлять людей идеями и&nbsp;вести их&nbsp;за&nbsp;собой</p>
-          </div>
-          <div class="col-xs-6">
-            <h5>Энергичным и&nbsp;стрессоустойчивым</h5>
-            <p>Ты&nbsp;сможешь оставаться бодрым целый день, быстро восстанавливать энергию, не&nbsp;обращать внимание на&nbsp;мелочи, которые раньше &laquo;выбивали из&nbsp;колеи&raquo;</p>
-          </div>
-      </div>
-    </section>
-
-    <section class="section s-how">
-      <div class="container">
-        <h2 class="title">Как мы&nbsp;это делаем</h2>
-        <div class="row">
-          <div class="col-xs-6">
-            <h5>Объединяем успешных людей</h5>
-            <p>В&nbsp;клубе собираются люди, которые хотят оставить наследие и&nbsp;уже двигаются в&nbsp;этом направлении. Здесь ты&nbsp;&laquo;загоришься&raquo; успехами участников и&nbsp;захочешь также. Почувствуешь энергетику тренера и&nbsp;сообщества. Познакомишься с&nbsp;людьми, которые тоже стремятся к&nbsp;успеху</p>
-          </div>
-          <div class="col-xs-6">
-            <h5>Непрерывно обучаем</h5>
-            <p>Каждую среду ты&nbsp;получаешь концентрированную информацию по&nbsp;вопросу. Это как прочитать книгу, только книгу ты&nbsp;прочел, а&nbsp;за&nbsp;следующую неизвестно когда возьмешься. Сообщество&nbsp;же задает ритм&nbsp;&mdash; ты&nbsp;развиваешься непрерывно</p>
-          </div>
-          <div class="col-xs-6">
-            <h5>Решаем актуальные проблемы</h5>
-            <p>Раз в&nbsp;неделю на&nbsp;вебинаре мы&nbsp;разбираем проблемную тему. Тема берется не&nbsp;с&nbsp;&laquo;потолка&raquo;&nbsp;&mdash; ты&nbsp;предлагаешь её&nbsp;в&nbsp;закрытой группе &laquo;Вконтакте&raquo;. Поэтому каждая встреча полезна: не&nbsp;знал, как успевать на&nbsp;работе в&nbsp;два раза больше&nbsp;&mdash; получил рекомендации и&nbsp;внедрил</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section s-results">
-      <div class="container">
-        <h2 class="title">Результаты</h2>
-
-        <div class="s-results__row">
-          <div class="s-results__item">
-            <h5>Лучшее окружение</h5>
-            <p>Общительность и&nbsp;умение вести за&nbsp;собой поможет быстрее добиваться целей и&nbsp;сформировать вдохновляющий круг общения</p>
-          </div>
-          <div class="s-results__item">
-            <h5>Большие результаты в&nbsp;жизни и&nbsp;бизнесе</h5>
-            <p>За&nbsp;счет развития продуктивности, общительности и&nbsp;стрессоустойчивости ты&nbsp;пробьешь &laquo;финансовый потолок&raquo; и&nbsp;начнешь добиваться &laquo;жирных&raquo; результатов: &laquo;Лексус&raquo;, трешка в&nbsp;центре, 2&nbsp;млн в&nbsp;месяц</p>
-          </div>
-          <div class="s-results__item">
-            <h5>Счастье</h5>
-            <p>Благодаря результатам, поддержке тренера и&nbsp;вдохновляющему окружению ты&nbsp;почувствуешь себя энергичным, позитивным и&nbsp;счастливым человеком</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section s-quote">
-      <div class="container">
-        <div class="quote">
-          <blockquote class="quote__text">&laquo;Я&nbsp;хотел бизнес закрывать, а&nbsp;теперь послушал тебя и&nbsp;развил его в&nbsp;три раза&raquo;</blockquote>
-          <span class="quote__sign">&mdash;&nbsp;Максим Мартьянов</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section s-listbuilder-program">
-      <div class="container">
-        <h2 class="title title--center">Записывайся на урок «{{ page.title }}»</h2>
         {% if page.gains %}
-          <p class="introtext">
-          {% for gain in page.gains %}
-            {{ gain }}
-            <br/>
-          {% endfor %}
-          </p>
+          <div class="col-xs-6">
+            <h2 class="title">Что даёт</h2>
+            {% for gain in page.gains %}
+              {{ gain }}<br/>
+            {% endfor %}
+          </div>
         {% endif %}
-        <div class="row step">
-          {% for topic in page.program %}
-            <div class="col-xs-4 step__item">
-              <h5>{{ topic }}</h5>
-            </div>
-          {% endfor %}
-        </div>
+        {% if page.program %}
+          <div class="col-xs-6">
+            <h2 class="title">Программа</h2>
+            {% for topic in page.program %}
+              {{ topic }}<br/>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </section>
 
-    <section class="section s-quote">
+    <section class="section s-anchor" id="join">
       <div class="container">
-        <div class="quote">
-          <blockquote class="quote__text">&laquo;После каждого урока устраиваю разнос сотрудникам&raquo;</blockquote>
-          <span class="quote__sign">&mdash;&nbsp;Павел</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section s-anchor">
-      <div class="container">
-        <h3 class="title">Введи свой емейл чтобы получить урок</h3>
+        <h3 class="title">Введи адрес своей страницы ВКонтакте или в Фейсбуке</h3>
         <div class="row">
-          <div class="col-xs-9">
+          <div class="col-xs-12 col-sm-9">
             <div class="form">
               <form method="post" action="http://love.prorealnost.com/order.php">
                 <ul class="form__wrap row">
-                  <li class="form__item col-xs-4">
-                    <input type="text" class="input" name="email" placeholder="ivan@ivanov.com">
+                  <li class="form__item col-sm-4">
+                    <input type="text" class="input" name="vk" placeholder="https://vk.com/id***">
                   </li>
-                  <li class="form__item col-xs-4">
+                  <li class="form__item col-sm-4">
                     <button class="btn btn-primary">
-                      Получить урок
+                      Получить вебинар
                     </button>
                   </li>
                 </ul>
                 <input type="hidden" name="traffic_source" />
-                <input type="hidden" name="trello-list-id" value="578362e2fc28fa1a77ae9318" />
-                <input type="hidden" name="mailchimp-product-interest-id" value="eb6470d55a" />
+                <input type="hidden" name="trello-list-id" value="56c58a45cef0c302e3ed379a" />
                 <input type="hidden" name="redirect" value="{{ site.url }}{{ page.redirect }}" />
                 <input type="hidden" name="form" value="anchor" />
               </form>

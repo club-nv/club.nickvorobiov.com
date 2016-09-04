@@ -39,7 +39,7 @@ $(function() {
 	$(document).on('click', '.js-scr', function(e){
 		e.preventDefault();
 		var href = $(this).attr("href");
-		var offsetTop = href === "#" ? 0 : $(href).offset().top-50;
+		var offsetTop = href === "#" ? 0 : $(href).offset().top;
 		$('html, body').stop().animate({ scrollTop: offsetTop}, 700);
 	});
 

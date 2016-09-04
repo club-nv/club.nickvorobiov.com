@@ -16,6 +16,13 @@
     margin: 0.714em 0;
     transition: all .2s;
   }
+  &__nav {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.143em 0 0;
+    margin-left: 4.286em;
+    transition: all .2s;
+  }
 }
 
 .logo {
@@ -28,4 +35,44 @@
   text-indent: -9999px;
 
   opacity: .8;
+}
+
+.menu-primary {
+  font-size: 0;
+  line-height: 1;
+  margin: 0 -1.071rem;
+  padding: 0;
+  &__item {
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 0;
+    margin: 0 1.071em;
+    position: relative;
+    &::before {
+      display: none;
+    }
+    & a,
+    & span {
+      font: 400 1rem/1.5 $font;
+      display: inline-block;
+      text-decoration: none;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        border-color: lighten($color-font, 70%)
+      }
+    }
+    & span {
+      cursor: default;
+    }
+    &.is-active {
+      & a {
+
+      }
+    }
+  } 
 }

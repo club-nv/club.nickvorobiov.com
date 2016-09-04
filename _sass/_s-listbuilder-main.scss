@@ -60,3 +60,24 @@
     }
   }
 }
+
+@media (max-width: $xmd) {
+  .s-listbuilder-main {
+    &__introtext { 
+      max-width: 100%;
+    }
+    &__sign {
+      right: 15px;
+      bottom: 10px;
+    }
+  }
+}
+@media (max-width: $xs) {
+  .s-listbuilder-main {
+    padding: 0 0 2.143em 0;   
+    min-height: 395px;
+    &__inner {
+      min-height: 440px;
+    }
+  }
+}
