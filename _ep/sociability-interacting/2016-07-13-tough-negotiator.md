@@ -12,7 +12,7 @@ program:
   - Техника «Побить и отправить подумать»
   - Когда не работает вин-вин
 stream: A99VMfhsNDU
-event: cskp8koekpf4oi3iepqrku0dq38
+event: A99VMfhsNDU
 cat: sociability
 ---
 

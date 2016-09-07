@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/pom/camujv7142bsr70jrjbr4brtr08/
-redirect: /enjoy/pom/camujv7142bsr70jrjbr4brtr08/
+permalink: /paid-episode/pom/Q_ZAQCChZAc/
+redirect: /enjoy/pom/Q_ZAQCChZAc/
 layout: paid-episode
 ---

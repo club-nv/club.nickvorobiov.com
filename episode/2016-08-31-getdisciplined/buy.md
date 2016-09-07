@@ -1,6 +1,6 @@
 ---
 title: Самодисциплина
 permalink: /buy-episode/getdisciplined/
-redirect: /paid-episode/getdisciplined/c4adqvk2mujah2btrc2mfkq5c7o/
+redirect: /paid-episode/getdisciplined/RDd03_0hS2Y/
 layout: buy-episode
 ---

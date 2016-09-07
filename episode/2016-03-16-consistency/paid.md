@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/consistency/cmra86dpbpslr3mec08q2lf9sqg/
-redirect: /enjoy/consistency/cmra86dpbpslr3mec08q2lf9sqg/
+permalink: /paid-episode/consistency/y9GR_0T0VFA/
+redirect: /enjoy/consistency/y9GR_0T0VFA/
 layout: paid-episode
 ---

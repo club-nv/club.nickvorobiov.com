@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/responsible/
-redirect: /enjoy/responsible/cs7skg84109h4imj6gie1mcnmk4/
+redirect: /enjoy/responsible/N-KQD-1nnlI/
 layout: listbuilder-ok
 ---

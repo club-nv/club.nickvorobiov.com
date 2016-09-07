@@ -8,6 +8,6 @@ program:
   - Как открыть винный бар
   - Как найти мужика
 stream: KbiLfOx4pxc
-event: ca4gjluh2hlmmsb2eljtpeqv0to
+event: KbiLfOx4pxc
 cat: productivity
 ---

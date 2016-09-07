@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/energy-2/c500ohdg41clbn0erq2fsa5i6io/
-redirect: /enjoy/energy-2/c500ohdg41clbn0erq2fsa5i6io/
+permalink: /paid-episode/energy-2/YQAoiw_nKRA/
+redirect: /enjoy/energy-2/YQAoiw_nKRA/
 layout: paid-episode
 ---

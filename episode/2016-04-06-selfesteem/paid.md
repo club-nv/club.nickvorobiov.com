@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/selfesteem/creqov9m5jbks3tila33r73r3bs/
-redirect: /enjoy/selfesteem/creqov9m5jbks3tila33r73r3bs/
+permalink: /paid-episode/selfesteem/xST53A3hAGQ/
+redirect: /enjoy/selfesteem/xST53A3hAGQ/
 layout: paid-episode
 ---

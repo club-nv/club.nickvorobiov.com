@@ -17,6 +17,6 @@ program:
   - Насколько важно иметь в жизни наставника
   - 'Как понять, чего хочется именно мне'
 stream: kr-g-sccsyA
-event: cmkb1msvcp9kh4pq0lkmhrk9gfs
+event: kr-g-sccsyA
 cat: awareness
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/netupin/cb00ubkd1ecbp4bcc2qpbknuhkc/
-redirect: /enjoy/netupin/cb00ubkd1ecbp4bcc2qpbknuhkc/
+permalink: /paid-episode/netupin/I1BiHahvyLo/
+redirect: /enjoy/netupin/I1BiHahvyLo/
 layout: paid-episode
 ---

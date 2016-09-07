@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/brain/c26skk4bqtdvl56694lgafn2j28/
-redirect: /enjoy/brain/c26skk4bqtdvl56694lgafn2j28/
+permalink: /paid-episode/brain/DUY1aaC8Gyc/
+redirect: /enjoy/brain/DUY1aaC8Gyc/
 layout: paid-episode
 ---

@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/netupin/
-redirect: /enjoy/netupin/cb00ubkd1ecbp4bcc2qpbknuhkc/
+redirect: /enjoy/netupin/I1BiHahvyLo/
 layout: listbuilder-ok
 ---

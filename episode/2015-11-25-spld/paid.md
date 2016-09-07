@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/spld/c79s729l2ulnh1to3bhsio2c6jo/
-redirect: /enjoy/spld/c79s729l2ulnh1to3bhsio2c6jo/
+permalink: /paid-episode/spld/JVMwO-y4hDk/
+redirect: /enjoy/spld/JVMwO-y4hDk/
 layout: paid-episode
 ---

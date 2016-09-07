@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/selfesteem/
-redirect: /enjoy/selfesteem/creqov9m5jbks3tila33r73r3bs/
+redirect: /enjoy/selfesteem/xST53A3hAGQ/
 layout: listbuilder-ok
 ---

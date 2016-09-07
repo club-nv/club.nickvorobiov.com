@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/procrastination/cum413fr7msspepn699541ipssk/
-redirect: /enjoy/procrastination/cum413fr7msspepn699541ipssk/
+permalink: /paid-episode/procrastination/X16Mt8NSf4o/
+redirect: /enjoy/procrastination/X16Mt8NSf4o/
 layout: paid-episode
 ---

@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/energy/
-redirect: /enjoy/energy/c1jq71n9r6d7cq43cbp7nddsjq4/
+redirect: /enjoy/energy/kgP-sUiVj4Q/
 layout: listbuilder-ok
 ---

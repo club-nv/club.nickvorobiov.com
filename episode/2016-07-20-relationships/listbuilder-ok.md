@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/relationships/
-redirect: /enjoy/relationships/cvdngels8oam5nicenpbteo3v74/
+redirect: /enjoy/relationships/8eGlPgLyrwU/
 layout: listbuilder-ok
 ---

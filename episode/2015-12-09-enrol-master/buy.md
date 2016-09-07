@@ -1,6 +1,6 @@
 ---
 title: Мастерство вовлечения
 permalink: /buy-episode/enrol-master/
-redirect: /paid-episode/enrol-master/cku6hvtnnrohd0lcsv55681fg20/
+redirect: /paid-episode/enrol-master/lwObNJY90Z8/
 layout: buy-episode
 ---

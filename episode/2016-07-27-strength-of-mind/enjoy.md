@@ -1,7 +1,7 @@
 ---
 title: Сила духа
 stream: eRVYef4x2xc
-event: cldkagheap92mkuank8chtql098
-permalink: /enjoy/strength-of-mind/cldkagheap92mkuank8chtql098/
+event: eRVYef4x2xc
+permalink: /enjoy/strength-of-mind/eRVYef4x2xc/
 layout: enjoy
 ---

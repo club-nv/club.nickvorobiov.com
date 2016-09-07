@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/openframe/cmkb1msvcp9kh4pq0lkmhrk9gfs/
-redirect: /enjoy/openframe/cmkb1msvcp9kh4pq0lkmhrk9gfs/
+permalink: /paid-episode/openframe/kr-g-sccsyA/
+redirect: /enjoy/openframe/kr-g-sccsyA/
 layout: paid-episode
 ---

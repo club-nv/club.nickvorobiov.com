@@ -1,7 +1,7 @@
 ---
 title: Осознанные отношения и знакомства
 stream: 8eGlPgLyrwU
-event: cvdngels8oam5nicenpbteo3v74
-permalink: /enjoy/relationships/cvdngels8oam5nicenpbteo3v74/
+event: 8eGlPgLyrwU
+permalink: /enjoy/relationships/8eGlPgLyrwU/
 layout: enjoy
 ---

@@ -16,7 +16,7 @@ gains:
   - Будешь более организованным
   - Выстроишь грамотный режим дня
 stream: nHI4k0ysC-Y
-event: cmifg09bcfd40n51nc4ief8nfgc
+event: nHI4k0ysC-Y
 cat: productivity
 ---
 

@@ -12,7 +12,7 @@ program:
   - Перестать убивать своё тело
   - Посвящать 10 минут в день состоянию осознанности
 stream: D24qf1H5IWQ
-event: cbrost8vm25rgeb6np5vs5094tc
+event: D24qf1H5IWQ
 cat: awareness
 ---
 

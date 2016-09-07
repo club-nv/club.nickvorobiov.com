@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/procrastination/
-redirect: /enjoy/procrastination/cum413fr7msspepn699541ipssk/
+redirect: /enjoy/procrastination/X16Mt8NSf4o/
 layout: listbuilder-ok
 ---

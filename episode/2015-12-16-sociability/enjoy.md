@@ -1,7 +1,7 @@
 ---
 title: Коммуникабельность
 stream: oQMKou9XL74
-event: cp2eaes21ha1misntdvgafipeu4
-permalink: /enjoy/sociability/cp2eaes21ha1misntdvgafipeu4/
+event: oQMKou9XL74
+permalink: /enjoy/sociability/oQMKou9XL74/
 layout: enjoy
 ---

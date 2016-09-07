@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/strength-of-mind/cldkagheap92mkuank8chtql098/
-redirect: /enjoy/strength-of-mind/cldkagheap92mkuank8chtql098/
+permalink: /paid-episode/strength-of-mind/eRVYef4x2xc/
+redirect: /enjoy/strength-of-mind/eRVYef4x2xc/
 layout: paid-episode
 ---

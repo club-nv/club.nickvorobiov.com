@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/uverennost/c2ct8e6s0pd4lc622v8lkt22a2k/
-redirect: /enjoy/uverennost/c2ct8e6s0pd4lc622v8lkt22a2k/
+permalink: /paid-episode/uverennost/2oh_vp-_PX0/
+redirect: /enjoy/uverennost/2oh_vp-_PX0/
 layout: paid-episode
 ---

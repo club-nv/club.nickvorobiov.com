@@ -20,7 +20,7 @@ gains:
   - Освоишь финансовое планирование
   - Научишься сохранять и приумножать деньги
 stream: 6n4i-pRVGDA
-event: chetgjjddtlke4rv25irgisdp3g
+event: 6n4i-pRVGDA
 cat: productivity
 ---
 

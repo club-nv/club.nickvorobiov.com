@@ -2,7 +2,7 @@
 title: Прокрастинация
 introtext: Как перестать откладывать дела на потом
 stream: X16Mt8NSf4o
-event: cum413fr7msspepn699541ipssk
+event: X16Mt8NSf4o
 cat: productivity
 gains:
   - трезво осознать, какие твои действия не приводят к результату

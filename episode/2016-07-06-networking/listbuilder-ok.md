@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/networking/
-redirect: /enjoy/networking/c3nolbb26n3j1qb56vor0g58ars/
+redirect: /enjoy/networking/pSIwP8c1rmc/
 layout: listbuilder-ok
 ---

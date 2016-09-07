@@ -1,6 +1,6 @@
 ---
 title: Как всё успевать
 permalink: /buy-episode/cleanup/
-redirect: /paid-episode/cleanup/c1tvdf0id251rr411h7rv5cvk8s/
+redirect: /paid-episode/cleanup/2cCh9e0O1rA/
 layout: buy-episode
 ---

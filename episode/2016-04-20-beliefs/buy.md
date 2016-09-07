@@ -1,6 +1,6 @@
 ---
 title: Убеждения
 permalink: /buy-episode/beliefs/
-redirect: /paid-episode/beliefs/cbfqmi4n357rpfa806t8auo68rk/
+redirect: /paid-episode/beliefs/wrjqrbaena4/
 layout: buy-episode
 ---

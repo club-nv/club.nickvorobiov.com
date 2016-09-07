@@ -5,6 +5,6 @@ program:
   - 'Учимся искать и вовлекать нужных людей, и не сдаваться до последнего'
   - Вдохновляемся по-полной!
 stream: lwObNJY90Z8
-event: cku6hvtnnrohd0lcsv55681fg20
+event: lwObNJY90Z8
 cat: sociability
 ---

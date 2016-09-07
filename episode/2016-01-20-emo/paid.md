@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/emo/csmce00eo051cbbt4nmj009jfm0/
-redirect: /enjoy/emo/csmce00eo051cbbt4nmj009jfm0/
+permalink: /paid-episode/emo/slANoBrUn8Q/
+redirect: /enjoy/emo/slANoBrUn8Q/
 layout: paid-episode
 ---

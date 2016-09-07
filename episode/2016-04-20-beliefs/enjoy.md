@@ -1,7 +1,7 @@
 ---
 title: Убеждения
 stream: wrjqrbaena4
-event: cbfqmi4n357rpfa806t8auo68rk
-permalink: /enjoy/beliefs/cbfqmi4n357rpfa806t8auo68rk/
+event: wrjqrbaena4
+permalink: /enjoy/beliefs/wrjqrbaena4/
 layout: enjoy
 ---

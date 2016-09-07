@@ -1,6 +1,6 @@
 ---
 title: Ответственность
 permalink: /buy-episode/responsible/
-redirect: /paid-episode/responsible/cs7skg84109h4imj6gie1mcnmk4/
+redirect: /paid-episode/responsible/N-KQD-1nnlI/
 layout: buy-episode
 ---

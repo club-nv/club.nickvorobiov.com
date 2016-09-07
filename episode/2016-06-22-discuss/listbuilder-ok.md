@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/discuss/
-redirect: /enjoy/discuss/c0bit52pgil7eov3kdt5gpfifq8/
+redirect: /enjoy/discuss/nKtcM18CFYM/
 layout: listbuilder-ok
 ---

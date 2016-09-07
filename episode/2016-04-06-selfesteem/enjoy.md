@@ -1,7 +1,7 @@
 ---
 title: Как прокачать самооценку
 stream: xST53A3hAGQ
-event: creqov9m5jbks3tila33r73r3bs
-permalink: /enjoy/selfesteem/creqov9m5jbks3tila33r73r3bs/
+event: xST53A3hAGQ
+permalink: /enjoy/selfesteem/xST53A3hAGQ/
 layout: enjoy
 ---

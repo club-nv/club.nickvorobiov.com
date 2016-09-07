@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/sociability/cp2eaes21ha1misntdvgafipeu4/
-redirect: /enjoy/sociability/cp2eaes21ha1misntdvgafipeu4/
+permalink: /paid-episode/sociability/oQMKou9XL74/
+redirect: /enjoy/sociability/oQMKou9XL74/
 layout: paid-episode
 ---

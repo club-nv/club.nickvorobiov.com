@@ -1,6 +1,6 @@
 ---
 title: Коммуникабельность
 permalink: /buy-episode/sociability/
-redirect: /paid-episode/sociability/cp2eaes21ha1misntdvgafipeu4/
+redirect: /paid-episode/sociability/oQMKou9XL74/
 layout: buy-episode
 ---

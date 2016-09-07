@@ -1,7 +1,7 @@
 ---
 title: Управление эмоциями
 stream: slANoBrUn8Q
-event: csmce00eo051cbbt4nmj009jfm0
-permalink: /enjoy/emo/csmce00eo051cbbt4nmj009jfm0/
+event: slANoBrUn8Q
+permalink: /enjoy/emo/slANoBrUn8Q/
 layout: enjoy
 ---

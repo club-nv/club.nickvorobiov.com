@@ -9,7 +9,7 @@ program:
   - Что делать есть не успеваю
   - Что делать есть передумал
 stream: N-KQD-1nnlI
-event: cs7skg84109h4imj6gie1mcnmk4
+event: N-KQD-1nnlI
 cat: awareness
 ---
 

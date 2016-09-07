@@ -1,6 +1,6 @@
 ---
 title: Тренировка мозга
 permalink: /buy-episode/brain/
-redirect: /paid-episode/brain/c26skk4bqtdvl56694lgafn2j28/
+redirect: /paid-episode/brain/DUY1aaC8Gyc/
 layout: buy-episode
 ---

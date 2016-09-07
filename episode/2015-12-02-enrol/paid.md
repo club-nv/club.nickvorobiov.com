@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/enrol/c5et6sdkcea25d3ta26h31ivplk/
-redirect: /enjoy/enrol/c5et6sdkcea25d3ta26h31ivplk/
+permalink: /paid-episode/enrol/dEMOXksqNVU/
+redirect: /enjoy/enrol/dEMOXksqNVU/
 layout: paid-episode
 ---

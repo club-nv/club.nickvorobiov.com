@@ -13,7 +13,7 @@ program:
   - Акт принятия
   - Ответы на вопросы
 stream: lEIkuy-TRGE
-event: cr60nnsehjavep356bvp9b52vu8
+event: lEIkuy-TRGE
 cat: attitude
 ---
 

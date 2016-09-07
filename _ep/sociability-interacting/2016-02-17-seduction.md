@@ -6,6 +6,6 @@ program:
   - Ответы на вопросы
   - Домашнее задание
 stream: OwtHJ8mTZWA
-event: cavj6i9ppeeu49q77u9od3mu2mk
+event: OwtHJ8mTZWA
 cat: sociability
 ---

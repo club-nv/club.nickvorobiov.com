@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/beliefs/cbfqmi4n357rpfa806t8auo68rk/
-redirect: /enjoy/beliefs/cbfqmi4n357rpfa806t8auo68rk/
+permalink: /paid-episode/beliefs/wrjqrbaena4/
+redirect: /enjoy/beliefs/wrjqrbaena4/
 layout: paid-episode
 ---

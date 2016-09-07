@@ -1,6 +1,6 @@
 ---
 title: Осознанные отношения и знакомства
 permalink: /buy-episode/relationships/
-redirect: /paid-episode/relationships/cvdngels8oam5nicenpbteo3v74/
+redirect: /paid-episode/relationships/8eGlPgLyrwU/
 layout: buy-episode
 ---

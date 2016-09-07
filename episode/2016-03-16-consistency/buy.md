@@ -1,6 +1,6 @@
 ---
 title: Целеустремлённость
 permalink: /buy-episode/consistency/
-redirect: /paid-episode/consistency/cmra86dpbpslr3mec08q2lf9sqg/
+redirect: /paid-episode/consistency/y9GR_0T0VFA/
 layout: buy-episode
 ---

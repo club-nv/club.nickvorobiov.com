@@ -21,7 +21,7 @@ gains:
   - "Начнешь действовать"
 
 stream: GnzJZcy2gzk
-event: c1tn1s7opbptjlsjl68ur01d1mk
+event: GnzJZcy2gzk
 cat: attitude
 ---
 

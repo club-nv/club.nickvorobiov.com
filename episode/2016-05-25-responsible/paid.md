@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/responsible/cs7skg84109h4imj6gie1mcnmk4/
-redirect: /enjoy/responsible/cs7skg84109h4imj6gie1mcnmk4/
+permalink: /paid-episode/responsible/N-KQD-1nnlI/
+redirect: /enjoy/responsible/N-KQD-1nnlI/
 layout: paid-episode
 ---

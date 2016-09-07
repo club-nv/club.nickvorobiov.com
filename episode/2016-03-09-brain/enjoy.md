@@ -1,7 +1,7 @@
 ---
 title: Тренировка мозга
 stream: DUY1aaC8Gyc
-event: c26skk4bqtdvl56694lgafn2j28
-permalink: /enjoy/brain/c26skk4bqtdvl56694lgafn2j28/
+event: DUY1aaC8Gyc
+permalink: /enjoy/brain/DUY1aaC8Gyc/
 layout: enjoy
 ---

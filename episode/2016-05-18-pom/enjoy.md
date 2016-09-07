@@ -1,7 +1,7 @@
 ---
 title: Позитивный образ мышления
 stream: Q_ZAQCChZAc
-event: camujv7142bsr70jrjbr4brtr08
-permalink: /enjoy/pom/camujv7142bsr70jrjbr4brtr08/
+event: Q_ZAQCChZAc
+permalink: /enjoy/pom/Q_ZAQCChZAc/
 layout: enjoy
 ---

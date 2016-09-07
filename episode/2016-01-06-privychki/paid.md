@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/privychki/c4a6t7ekb0jfe4ktks9g4bbv5kk/
-redirect: /enjoy/privychki/c4a6t7ekb0jfe4ktks9g4bbv5kk/
+permalink: /paid-episode/privychki/lLKmm_BxHoU/
+redirect: /enjoy/privychki/lLKmm_BxHoU/
 layout: paid-episode
 ---

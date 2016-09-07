@@ -1,6 +1,6 @@
 ---
 title: Принятие
 permalink: /buy-episode/acceptance/
-redirect: /paid-episode/acceptance/cr60nnsehjavep356bvp9b52vu8/
+redirect: /paid-episode/acceptance/lEIkuy-TRGE/
 layout: buy-episode
 ---

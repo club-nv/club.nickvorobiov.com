@@ -1,6 +1,6 @@
 ---
 title: Как не просрать ещё один год
 permalink: /buy-episode/neprosrat/
-redirect: /paid-episode/neprosrat/c2vahhnvil09onteshf0l8hi1a0/
+redirect: /paid-episode/neprosrat/BmQ5va_J6yU/
 layout: buy-episode
 ---

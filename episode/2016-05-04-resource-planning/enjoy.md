@@ -1,7 +1,7 @@
 ---
 title: Планирование
 stream: KbiLfOx4pxc
-event: ca4gjluh2hlmmsb2eljtpeqv0to
-permalink: /enjoy/resource-planning/ca4gjluh2hlmmsb2eljtpeqv0to/
+event: KbiLfOx4pxc
+permalink: /enjoy/resource-planning/KbiLfOx4pxc/
 layout: enjoy
 ---

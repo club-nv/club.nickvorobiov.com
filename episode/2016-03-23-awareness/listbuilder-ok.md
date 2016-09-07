@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/awareness/
-redirect: /enjoy/awareness/cbrost8vm25rgeb6np5vs5094tc/
+redirect: /enjoy/awareness/D24qf1H5IWQ/
 layout: listbuilder-ok
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/oratory/cfcafnslt0h4di9nunp6tohe790/
-redirect: /enjoy/oratory/cfcafnslt0h4di9nunp6tohe790/
+permalink: /paid-episode/oratory/prezxV6v4eg/
+redirect: /enjoy/oratory/prezxV6v4eg/
 layout: paid-episode
 ---

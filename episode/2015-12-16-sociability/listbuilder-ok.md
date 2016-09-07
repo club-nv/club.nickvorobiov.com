@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/sociability/
-redirect: /enjoy/sociability/cp2eaes21ha1misntdvgafipeu4/
+redirect: /enjoy/sociability/oQMKou9XL74/
 layout: listbuilder-ok
 ---

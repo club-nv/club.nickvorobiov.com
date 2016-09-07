@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/oratory/
-redirect: /enjoy/oratory/cfcafnslt0h4di9nunp6tohe790/
+redirect: /enjoy/oratory/prezxV6v4eg/
 layout: listbuilder-ok
 ---

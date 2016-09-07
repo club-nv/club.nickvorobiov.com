@@ -23,7 +23,7 @@ gains:
   - Неуклонно двигаться в сторону цели вместо разового «рывка»
   - Экономить силы и двигаться легко
 stream: QMSvAY5Z0wo
-event: cj2t6hjg8mvv99li014f32vfml0
+event: QMSvAY5Z0wo
 cat: productivity
 ---
 

@@ -17,7 +17,7 @@ program:
   - 10% в неделю
   - Домашнее задание
 stream: RDd03_0hS2Y
-event: c4adqvk2mujah2btrc2mfkq5c7o
+event: RDd03_0hS2Y
 cat: productivity
 ---
 

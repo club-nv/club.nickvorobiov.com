@@ -1,7 +1,7 @@
 ---
 title: Рекрутинг
 stream: 8JRsM1CgRQ0
-event: c02khlkrntin6b4oru6i9f0ja6g
-permalink: /enjoy/recruitment/c02khlkrntin6b4oru6i9f0ja6g/
+event: 8JRsM1CgRQ0
+permalink: /enjoy/recruitment/8JRsM1CgRQ0/
 layout: enjoy
 ---

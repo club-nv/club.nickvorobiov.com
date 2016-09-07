@@ -27,7 +27,7 @@ gains:
   - "Научишься брать инициативу в свои руки"
   - "Сможешь грамотно себя презентовать"
 stream: pSIwP8c1rmc
-event: c3nolbb26n3j1qb56vor0g58ars
+event: pSIwP8c1rmc
 cat: sociability
 ---
 

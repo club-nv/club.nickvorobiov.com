@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/networking/c3nolbb26n3j1qb56vor0g58ars/
-redirect: /enjoy/networking/c3nolbb26n3j1qb56vor0g58ars/
+permalink: /paid-episode/networking/pSIwP8c1rmc/
+redirect: /enjoy/networking/pSIwP8c1rmc/
 layout: paid-episode
 ---

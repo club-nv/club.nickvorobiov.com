@@ -1,6 +1,6 @@
 ---
 title: Прокрастинация
 permalink: /buy-episode/procrastination/
-redirect: /paid-episode/procrastination/cum413fr7msspepn699541ipssk/
+redirect: /paid-episode/procrastination/X16Mt8NSf4o/
 layout: buy-episode
 ---

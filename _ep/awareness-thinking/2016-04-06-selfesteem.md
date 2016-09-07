@@ -16,7 +16,7 @@ gains:
   - Повысить самооценку
   - Стать уверенным
 stream: xST53A3hAGQ
-event: creqov9m5jbks3tila33r73r3bs
+event: xST53A3hAGQ
 cat: awareness
 ---
 

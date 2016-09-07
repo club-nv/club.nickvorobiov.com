@@ -1,6 +1,6 @@
 ---
 title: Как прокачать самооценку
 permalink: /buy-episode/selfesteem/
-redirect: /paid-episode/selfesteem/creqov9m5jbks3tila33r73r3bs/
+redirect: /paid-episode/selfesteem/xST53A3hAGQ/
 layout: buy-episode
 ---

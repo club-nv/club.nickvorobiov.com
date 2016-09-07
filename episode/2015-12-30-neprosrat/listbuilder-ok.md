@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/neprosrat/
-redirect: /enjoy/neprosrat/c2vahhnvil09onteshf0l8hi1a0/
+redirect: /enjoy/neprosrat/BmQ5va_J6yU/
 layout: listbuilder-ok
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/getdisciplined/c4adqvk2mujah2btrc2mfkq5c7o/
-redirect: /enjoy/getdisciplined/c4adqvk2mujah2btrc2mfkq5c7o/
+permalink: /paid-episode/getdisciplined/RDd03_0hS2Y/
+redirect: /enjoy/getdisciplined/RDd03_0hS2Y/
 layout: paid-episode
 ---

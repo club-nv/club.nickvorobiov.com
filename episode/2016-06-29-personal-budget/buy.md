@@ -1,6 +1,6 @@
 ---
 title: Личный бюджет
 permalink: /buy-episode/personal-budget/
-redirect: /paid-episode/personal-budget/chetgjjddtlke4rv25irgisdp3g/
+redirect: /paid-episode/personal-budget/6n4i-pRVGDA/
 layout: buy-episode
 ---

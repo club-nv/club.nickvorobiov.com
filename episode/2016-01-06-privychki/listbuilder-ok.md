@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/privychki/
-redirect: /enjoy/privychki/c4a6t7ekb0jfe4ktks9g4bbv5kk/
+redirect: /enjoy/privychki/lLKmm_BxHoU/
 layout: listbuilder-ok
 ---

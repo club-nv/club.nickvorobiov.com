@@ -15,7 +15,7 @@ program:
   - Использовать свои сильные стороны
   - Активные побеждают
 stream: y9GR_0T0VFA
-event: cmra86dpbpslr3mec08q2lf9sqg
+event: y9GR_0T0VFA
 cat: awareness
 ---
 

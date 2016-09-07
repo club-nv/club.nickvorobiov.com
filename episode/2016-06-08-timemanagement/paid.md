@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/timemanagement/cmifg09bcfd40n51nc4ief8nfgc/
-redirect: /enjoy/timemanagement/cmifg09bcfd40n51nc4ief8nfgc/
+permalink: /paid-episode/timemanagement/nHI4k0ysC-Y/
+redirect: /enjoy/timemanagement/nHI4k0ysC-Y/
 layout: paid-episode
 ---

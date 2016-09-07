@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/relationships/cvdngels8oam5nicenpbteo3v74/
-redirect: /enjoy/relationships/cvdngels8oam5nicenpbteo3v74/
+permalink: /paid-episode/relationships/8eGlPgLyrwU/
+redirect: /enjoy/relationships/8eGlPgLyrwU/
 layout: paid-episode
 ---

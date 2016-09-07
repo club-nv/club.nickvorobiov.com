@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/beliefs/
-redirect: /enjoy/beliefs/cbfqmi4n357rpfa806t8auo68rk/
+redirect: /enjoy/beliefs/wrjqrbaena4/
 layout: listbuilder-ok
 ---

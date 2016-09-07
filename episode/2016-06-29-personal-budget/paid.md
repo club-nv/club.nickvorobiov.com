@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/personal-budget/chetgjjddtlke4rv25irgisdp3g/
-redirect: /enjoy/personal-budget/chetgjjddtlke4rv25irgisdp3g/
+permalink: /paid-episode/personal-budget/6n4i-pRVGDA/
+redirect: /enjoy/personal-budget/6n4i-pRVGDA/
 layout: paid-episode
 ---

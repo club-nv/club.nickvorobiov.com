@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/pom/
-redirect: /enjoy/pom/camujv7142bsr70jrjbr4brtr08/
+redirect: /enjoy/pom/Q_ZAQCChZAc/
 layout: listbuilder-ok
 ---

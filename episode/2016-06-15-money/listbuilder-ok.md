@@ -1,5 +1,5 @@
 ---
 permalink: /listbuilder-ok/money/
-redirect: /enjoy/money/cf92nv36qupgda6va1ebusuq6s8/
+redirect: /enjoy/money/ZhMdIVZm_T4/
 layout: listbuilder-ok
 ---

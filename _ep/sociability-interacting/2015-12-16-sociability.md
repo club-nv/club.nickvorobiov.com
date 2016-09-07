@@ -10,6 +10,6 @@ program:
   - Первый шаг по развитию смелости и коммуникабельности
   - Где взять остальные шаги
 stream: oQMKou9XL74
-event: cp2eaes21ha1misntdvgafipeu4
+event: oQMKou9XL74
 cat: sociability
 ---

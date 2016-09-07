@@ -1,7 +1,7 @@
 ---
 title: Как стать энергичным
 stream: kgP-sUiVj4Q
-event: c1jq71n9r6d7cq43cbp7nddsjq4
-permalink: /enjoy/energy/c1jq71n9r6d7cq43cbp7nddsjq4/
+event: kgP-sUiVj4Q
+permalink: /enjoy/energy/kgP-sUiVj4Q/
 layout: enjoy
 ---

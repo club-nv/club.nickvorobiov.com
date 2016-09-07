@@ -10,6 +10,6 @@ program:
   - Как сломать вредную привычку
   - Как создать полезную привычку
 stream: lLKmm_BxHoU
-event: c4a6t7ekb0jfe4ktks9g4bbv5kk
+event: lLKmm_BxHoU
 cat: productivity
 ---

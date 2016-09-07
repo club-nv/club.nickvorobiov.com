@@ -8,6 +8,6 @@ program:
   - Вдохновение и мотивация
   - Домашнее задание
 stream: BmQ5va_J6yU
-event: c2vahhnvil09onteshf0l8hi1a0
+event: BmQ5va_J6yU
 cat: awareness
 ---

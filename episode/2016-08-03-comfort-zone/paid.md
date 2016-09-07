@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/comfort-zone/c1tn1s7opbptjlsjl68ur01d1mk/
-redirect: /enjoy/comfort-zone/c1tn1s7opbptjlsjl68ur01d1mk/
+permalink: /paid-episode/comfort-zone/GnzJZcy2gzk/
+redirect: /enjoy/comfort-zone/GnzJZcy2gzk/
 layout: paid-episode
 ---

@@ -1,7 +1,7 @@
 ---
 title: Самодисциплина
 stream: RDd03_0hS2Y
-event: c4adqvk2mujah2btrc2mfkq5c7o
-permalink: /enjoy/getdisciplined/c4adqvk2mujah2btrc2mfkq5c7o/
+event: RDd03_0hS2Y
+permalink: /enjoy/getdisciplined/RDd03_0hS2Y/
 layout: enjoy
 ---

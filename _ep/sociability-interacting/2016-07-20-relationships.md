@@ -20,7 +20,7 @@ program:
   - Доверие в отношениях
   - Кто в доме главный
 stream: 8eGlPgLyrwU
-event: cvdngels8oam5nicenpbteo3v74
+event: 8eGlPgLyrwU
 cat: sociability
 ---
 
