@@ -1,7 +1,7 @@
 ---
 title: Тренировка подсознания
-stream: GGyMjLMKVKU
-event: Lz2ntIUNnMs
-permalink: /enjoy/subconscious/Lz2ntIUNnMs/
+stream: CNMv5tFvKmU
+event: GGyMjLMKVKU
+permalink: /enjoy/subconscious/GGyMjLMKVKU/
 layout: enjoy
 ---
