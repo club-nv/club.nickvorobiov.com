@@ -19,4 +19,5 @@ gotchas: # Записывайся, чтобы
 export_logo: /images/episode/2016-09-28-emotional-safety/export-logo.jpg
 export_title: Приглашение на вебинар по эмоциональной безопасности
 export_description: "Как избавиться от мудаков, которые раздражают, и создать собственный стандарт хорошего, позитивного, открытого настроения"
+permalink: /preview/emotional-safety/
 ---
