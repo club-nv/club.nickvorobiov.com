@@ -1,0 +1,35 @@
+.s-preview-main {
+  background: #fff;
+  padding: 5em 0;
+  &__introtext {
+    font-size: 1.714em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 1em;
+  }
+  &__inner {
+    &-left {
+      padding-bottom: 1em;
+    }
+    &-right {
+      .form {
+        border: solid #ccc 1px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background: #efefef;
+        padding: 40px;
+
+        p {
+          margin-bottom: 1em;
+        }
+        .form__wrap {
+          margin: 0 -1.071rem;
+        }
+        input {
+          border: solid #ccc 2px !important;
+        }
+      }
+    }
+  }
+}

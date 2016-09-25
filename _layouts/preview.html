@@ -1,0 +1,105 @@
+---
+layout: base
+---
+
+<div class="root-layout">
+  <main class="main" role="main">
+
+    <section class="section s-preview-main">
+      <div class="container">
+        <div class="s-preview-main__head">
+          <h1 class="s-preview-main__title">
+            Вебинар «{{ page.title }}»
+          </h1>
+          <p class="s-preview-main__introtext">
+            {{ page.introtext }}
+          </p>
+        </div>
+        <div class="s-preview-main__inner">
+          <div class="row">
+            <div class="col-xs-12 col-md-7 s-preview-main__inner-left">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/am5i9qz5g60?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-5 s-preview-main__inner-right">
+              <div class="form">
+                <p>Введи адрес своей страницы ВКонтакте, чтобы получить доступ на&nbsp;вебинар</p>
+                <form method="post" action="http://bot.nickvorobiov.com/order.php">
+                  <ul class="form__wrap">
+                    <li class="form__item">
+                      <input type="text" class="input" name="vk" placeholder="https://vk.com/id***">
+                    </li>
+                    <li class="form__item">
+                      <button class="btn btn-primary">
+                        Получить вебинар
+                      </button>
+                    </li>
+                  </ul>
+                  <input type="hidden" name="traffic_source" />
+                  <input type="hidden" name="trello-list-id" value="56c58a45cef0c302e3ed379a" />
+                  <input type="hidden" name="redirect" value="{{ site.url }}/welcome-preview/" />
+                  <input type="hidden" name="form" value="anchor" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include about.html %}
+
+    <section class="section s-preview-what" id="what">
+      <div class="container">
+        <h2>Зачем тебе вебинар <nobr>«{{ page.title }}»</nobr></h2>
+        <div class="row">
+        {% if page.audience %}
+          <div class="col-xs-6">
+            <h3 class="title">Вебинар тебе подойдёт если:</h3>
+            {% for member in page.audience %}
+              {{ member }}<br/>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if page.gotchas %}
+          <div class="col-xs-6">
+            <h3 class="title">Записывайся, чтобы:</h3>
+            {% for gotcha in page.gotchas %}
+              {{ gotcha }}<br/>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="section s-anchor" id="join">
+      <div class="container">
+        <h3 class="title">Введи адрес своей страницы ВКонтакте</h3>
+        <div class="row">
+          <div class="col-xs-12 col-sm-9">
+            <div class="form">
+              <form method="post" action="http://bot.nickvorobiov.com/order.php">
+                <ul class="form__wrap row">
+                  <li class="form__item col-xs-12 col-sm-6 col-md-5">
+                    <input type="text" class="input" name="vk" placeholder="https://vk.com/id***">
+                  </li>
+                  <li class="form__item col-xs-12 col-sm-6 col-md-5">
+                    <button class="btn btn-primary">
+                      Получить вебинар
+                    </button>
+                  </li>
+                </ul>
+                <input type="hidden" name="traffic_source" />
+                <input type="hidden" name="trello-list-id" value="56c58a45cef0c302e3ed379a" />
+                <input type="hidden" name="redirect" value="{{ site.url }}/welcome-preview/" />
+                <input type="hidden" name="form" value="anchor" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  {% include footer.html %}
+</div>

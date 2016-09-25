@@ -1,6 +1,7 @@
 // base.scss
 
 @import 'lib/mixins';
+@import 'lib/mixins/responsive-visibility';
 
 @import 'lib/reset';
 //@import 'lib/normalize';
@@ -13,6 +14,8 @@
 //@import 'lib/media';
 @import 'lib/modal';
 //@import 'lib/photoswipe';
+@import 'lib/responsive-embed';
+@import 'lib/responsive-utilities';
 @import 'lib/animation';
 @import 'lib/typography';
 @import 'lib/notice';

@@ -1,0 +1,23 @@
+.s-welcome-preview {
+  padding: 4em 0;
+
+  .title {
+    margin-bottom: 0.5em;
+  }
+
+  &__content-left {
+    margin-bottom: 2em;
+
+    &--desktop {
+      @media (max-width: $screen-sm-max) {
+        display: none;
+      }
+    }
+
+    &--mobile {
+      @media (min-width: $screen-md-min) {
+        display: none;
+      }
+    }
+  }
+}
