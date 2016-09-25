@@ -5,12 +5,12 @@
 <meta name="author" content="{{ site.author }}">
 
 <meta property="og:locale" content="ru_RU" />
-<meta property="og:title" content="{{ site.title }}" />
-<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:title" content="{% if page.export_title %}{{ page.export_title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="/images/icon/social_photo.jpg" />
+<meta property="og:image" content="{% if page.export_logo %}{{ page.export_logo }}{% else %}/images/icon/social_photo.jpg{% endif %}" />
 
-<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:description" content="{% if page.export_description %}{{ page.export_description }}{{ site.description }}{% endif %}" />
 
 <link rel="image_src" href="/images/icon/social_photo.jpg" />
 <link rel="icon" type="image/x-icon" href="/images/icon/favicon-32.png" />
