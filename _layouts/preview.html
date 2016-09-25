@@ -3,9 +3,34 @@ layout: base
 ---
 
 <div class="root-layout">
-  <main class="main" role="main">
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <a href="#first" class="logo js-scr" title="">
+          Николай Воробьёв
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="menu-primary">
+          <li class="menu-primary__item">
+            <a href="#about" class="js-scr" title="">О тренере</a>
+          </li>
+          <li class="menu-primary__item">
+            <a href="#what" class="js-scr" title="">Что ты получишь</a>
+          </li>
+          <li class="menu-primary__item">
+            <a href="#reviews" class="js-scr" title="">Отзывы участников</a>
+          </li>
+          <li class="menu-primary__item">
+            <a href="#join" class="js-scr" title="">Записаться</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section class="section s-preview-main">
+  <main class="main" role="main">
+    <section class="section s-preview-main" id="first">
       <div class="container">
         <div class="s-preview-main__head">
           <h1 class="s-preview-main__title">
@@ -17,12 +42,14 @@ layout: base
         </div>
         <div class="s-preview-main__inner">
           <div class="row">
-            <div class="col-xs-12 col-md-7 s-preview-main__inner-left">
+            <div class="col-xs-12 col-lg-7 s-preview-main__inner-left">
+              <h5>Посмотри видео, чтобы узнать, о чём будет вебинар</h5>
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/am5i9qz5g60?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
               </div>
             </div>
-            <div class="col-xs-12 col-md-5 s-preview-main__inner-right">
+            <div class="col-xs-12 col-lg-5 s-preview-main__inner-right">
+              <h5>Начало: среда, 28 сентября в 20:00 мск</h5>
               <div class="form">
                 <p>Введи адрес своей страницы ВКонтакте, чтобы получить доступ на&nbsp;вебинар</p>
                 <form method="post" action="http://bot.nickvorobiov.com/order.php">
@@ -32,7 +59,7 @@ layout: base
                     </li>
                     <li class="form__item">
                       <button class="btn btn-primary">
-                        Получить вебинар
+                        Записаться на вебинар
                       </button>
                     </li>
                   </ul>
@@ -52,19 +79,19 @@ layout: base
 
     <section class="section s-preview-what" id="what">
       <div class="container">
-        <h2>Зачем тебе вебинар <nobr>«{{ page.title }}»</nobr></h2>
+        <h2 class="title">Зачем тебе вебинар «{{ page.title }}»</h2>
         <div class="row">
         {% if page.audience %}
-          <div class="col-xs-6">
-            <h3 class="title">Вебинар тебе подойдёт если:</h3>
+          <div class="col-xs-12 col-sm-6">
+            <h4>Вебинар тебе подойдёт если:</h4>
             {% for member in page.audience %}
               {{ member }}<br/>
             {% endfor %}
           </div>
         {% endif %}
         {% if page.gotchas %}
-          <div class="col-xs-6">
-            <h3 class="title">Записывайся, чтобы:</h3>
+          <div class="col-xs-12 col-sm-6">
+            <h4>Записывайся, чтобы:</h4>
             {% for gotcha in page.gotchas %}
               {{ gotcha }}<br/>
             {% endfor %}
@@ -72,6 +99,21 @@ layout: base
         {% endif %}
       </div>
     </section>
+
+    {% if page.reviews %}
+      <section id="reviews" class="section s-reviews">
+        <div class="container">
+          <h2 class="title title--center">
+            Отзывы участников
+          </h2>
+          <div class="reviews js-list">
+            {% for review in page.reviews %}
+              {% include review.html review=review %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
 
     <section class="section s-anchor" id="join">
       <div class="container">
@@ -86,7 +128,7 @@ layout: base
                   </li>
                   <li class="form__item col-xs-12 col-sm-6 col-md-5">
                     <button class="btn btn-primary">
-                      Получить вебинар
+                      Записаться на вебинар
                     </button>
                   </li>
                 </ul>

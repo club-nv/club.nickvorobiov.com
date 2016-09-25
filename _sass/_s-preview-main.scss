@@ -1,6 +1,14 @@
 .s-preview-main {
   background: #fff;
-  padding: 5em 0;
+
+  &__head {
+    margin-top: 5em;
+
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      margin-top: 10em;
+    }
+  }
+
   &__introtext {
     font-size: 1.714em;
     font-weight: 300;
@@ -12,6 +20,9 @@
       padding-bottom: 1em;
     }
     &-right {
+      p.lead {
+        margin-top: 0;
+      }
       .form {
         border: solid #ccc 1px;
         -webkit-border-radius: 5px;

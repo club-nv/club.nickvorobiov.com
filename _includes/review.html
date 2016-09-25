@@ -1,0 +1,20 @@
+{% assign review = include.review %}
+<article class="reviews__item animated fadeIn">
+  <div class="row">
+    <div class="col-xs-2">
+      <figure class="reviews__item-info">
+        <img src="{{ review.picture }}" class="reviews__item-img" alt="">
+        <figcaption class="reviews__item-desc">
+          <div class="reviews__item-name">{{ review.name }}</div>
+          <a href="https://vk.com/{{ review.vk }}" class="reviews__item-social" target="blank">vk.com/{{ review.vk }}</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="col-xs-8">
+      <div class="reviews__item-body">
+        <h4>{{ review.title }}</h4>
+        {{ review.text | markdownify }}
+      </div>
+    </div>
+  </div>
+</article>

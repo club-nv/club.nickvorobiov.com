@@ -76,3 +76,9 @@
     }
   } 
 }
+
+@media (max-width: $screen-xs-max) {
+  .header {
+    display: none;
+  }
+}
