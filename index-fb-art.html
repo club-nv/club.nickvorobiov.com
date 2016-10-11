@@ -1,0 +1,114 @@
+---
+# вариант для фейсбука для Артёма — с вводом адреса страницы фб вместо вк
+layout: base
+permalink: /fb-art/
+---
+
+<div class="root-layout">
+  {% include header.html %}
+  <main class="main" role="main">
+    {% include main-sections.html %}
+
+    <section id="join" class="section s-price">
+      <div class="container">
+        <h2 class="title title--center">Записывайся</h2>
+
+        <div class="row s-price__row">
+          <div class="col-xs-4 s-price__item">
+            <div class="s-price__item-text">
+              <h5 class="s-price__item-header">Полгода&nbsp;&mdash; 5&nbsp;000 рублей</h5>
+
+              <p>
+                Живое участие
+                <br/>
+                Записи занятий
+              </p>
+            </div>
+            <div class="s-price__item-button">
+              <a class="btn btn-primary" href="/join-sixmonths/">Оплатить</a>
+            </div>
+          </div>
+          <div class="col-xs-4 s-price__item">
+            <div class="s-price__item-text">
+              <h5 class="s-price__item-header">Месяц&nbsp;&mdash; 1&nbsp;000 рублей</h5>
+
+              <p>
+                Живое участие
+                <br/>
+                Записи занятий
+              </p>
+            </div>
+            <div class="s-price__item-button">
+              <a class="btn btn-primary" href="/join-onemonth/">Оплатить</a>
+            </div>
+          </div>
+          <div class="col-xs-4 s-price__item">
+            <div class="s-price__item-text">
+              <h5 class="s-price__item-header--special">2&nbsp;недели&nbsp;&mdash; бесплатно</h5>
+
+              <p>
+                2&nbsp;недели
+                <br/>
+                Живое участие
+              </p>
+            </div>
+            <div class="s-price__item-button">
+              <button class="btn btn-vk" data-modal-target="modal" onclick="goog_report_conversion()">Вступить бесплатно</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {% include about.html %}
+
+    <section class="section s-bonus">
+      <div class="container">
+        <h2 class="title">Хочешь две записи занятий в&nbsp;подарок?</h2>
+        <p class="introtext">Расскажи в&nbsp;комментариях, какая тема тебе интересна. Мы&nbsp;подберем уроки и&nbsp;вышлем ссылку.</p>
+
+        <div class="s-bonus__content" style="overflow: hidden;">
+          <div id="vk_comments"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+{% include footer.html %}
+
+<!--noindex-->
+<div class="modal modal--full" data-modal-id="modal">
+  <div class="modal-close" data-modal-action="close">Закрыть</div>
+    <div class="form">
+      <h3 class="title">Вступить в клуб</h3>
+      
+      <p>Чтобы вступить в&nbsp;Клуб, укажи ссылку на&nbsp;свой профиль в Facebook</p>
+
+      <form method="post" action="http://bot.nickvorobiov.com/order.php">
+        <ul class="form__wrap row">
+          <li class="form__item col-xs-6">
+            <input type="text" name="fb" class="input input--outline" placeholder="https://www.facebook.com/***">
+          </li>
+          <li class="form__item col-xs-4">
+            <button class="btn btn-primary">
+              Вступить
+            </button>
+          </li>
+        </ul>
+        <input type="hidden" name="traffic_source" />
+        <input type="hidden" name="trello-list-id" value="56c58a45cef0c302e3ed379a" />
+        <input type="hidden" name="redirect" value="http://club.nickvorobiov.com/ok-free-art/" />
+      </form>
+    </div>
+  </div>
+</div>
+<!--/noindex-->
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?122"></script>
+<script type="text/javascript">
+  VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
+  VK.Widgets.Comments("vk_comments", {limit: 20, width: "750", attach: "*"});
+</script>
+
+{% include microconversion.html %}
