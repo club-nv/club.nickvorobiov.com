@@ -1,5 +1,5 @@
 ---
-permalink: /paid-episode/conflict/EUTzq8BZJFA/
-redirect: /enjoy/conflict/EUTzq8BZJFA/
+permalink: /paid-episode/conflict/H8_T4mh9Vik/
+redirect: /enjoy/conflict/H8_T4mh9Vik/
 layout: paid-episode
 ---
