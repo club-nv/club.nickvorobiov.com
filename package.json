@@ -1,0 +1,29 @@
+{
+  "name": "club.nickvorobiov.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^2.3.1",
+    "gulp-jekyll": "0.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.9.1"
+  }
+}
