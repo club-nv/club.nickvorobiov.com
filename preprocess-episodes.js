@@ -3,6 +3,8 @@ fs   = require('fs');
 
 function load(filename) {
   var data = fs.readFileSync(filename, 'utf8');
+  
+  data = data.split("\r\n").join("\n"); // Fuck Windows
 
   var content;
   var i = data.indexOf("\n---\n\n");
