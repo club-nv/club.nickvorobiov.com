@@ -4,7 +4,7 @@
 # check .travis.yml there should be only one key
 # run this once for repository
 
-scp deploy-club@bot.nickvorobiov.com:/home/deploy/.ssh/id_rsa ./deploy-key
+scp deploy-club@bot.nickvorobiov.com:/home/deploy-club/.ssh/id_rsa ./deploy-key
 chmod 600 ./deploy-key
 travis encrypt-file ./deploy-key --add
 rm ./deploy-key
