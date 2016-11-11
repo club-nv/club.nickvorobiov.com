@@ -25,6 +25,11 @@ function load(filename) {
 function save(filename, doc, content) {
   var res = "---\n" + yaml.safeDump(doc) + "---\n";
   if (content) res += "\n" + content;
+
+  if (/^win/.test(process.platform)) {
+    res = res.split("\n").join("\r\n"); // Fuck Windows
+  }
+
   fs.writeFileSync(filename, res);
 }
 
